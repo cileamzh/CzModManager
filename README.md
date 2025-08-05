@@ -25,7 +25,7 @@
 
 **CzModManager** 是一款用于管理 [3DMigoto](https://github.com/bo3b/3Dmigoto) Mod 的桌面程序，适用于需要快速整理、启用和禁用游戏 Mod 的玩家。
 
-支持多种游戏，包括但不限于 Unity、Unreal 和 DX11 平台游戏。
+支持多种游戏
 
 ---
 
