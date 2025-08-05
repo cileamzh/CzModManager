@@ -1,0 +1,1358 @@
+[
+  {
+    "name": [
+      ["en", "genshin_impact"],
+      ["zh", "原神"]
+    ],
+    "icon": "/icon/genshin_impact/icon.jpg",
+    "bg": "/icon/genshin_impact/bg.jpg",
+    "value": "genshin_impact",
+    "migoto_path": "",
+    "game_path": "",
+    "classes": [
+      {
+        "name": [
+          ["zh", "character"],
+          ["en", "角色"]
+        ],
+        "value": "characters",
+        "icon": "/icon/genshin_impact/char.png",
+        "list": [
+          {
+            "name": [
+              ["zh", "阿贝多"],
+              ["en", "Albedo"]
+            ],
+            "star": 5,
+            "label": "Albedo",
+            "icon": "Albedo.png",
+            "element": "岩",
+            "weapon": "单手剑",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "艾尔海森"],
+              ["en", "Alhaitham"]
+            ],
+            "star": 5,
+            "label": "Alhaitham",
+            "icon": "Alhaitham.png",
+            "element": "草",
+            "weapon": "单手剑",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "埃洛伊"],
+              ["en", "Aloy"]
+            ],
+            "star": 5,
+            "label": "Aloy",
+            "icon": "Aloy.png",
+            "element": "冰",
+            "weapon": "弓",
+            "area": "异世"
+          },
+          {
+            "name": [
+              ["zh", "安柏"],
+              ["en", "Amber"]
+            ],
+            "star": 4,
+            "label": "Amber",
+            "icon": "Amber.png",
+            "element": "火",
+            "weapon": "弓",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "荒泷一斗"],
+              ["en", "Arataki Itto"]
+            ],
+            "star": 5,
+            "label": "Arataki Itto",
+            "icon": "Arataki_Itto.png",
+            "element": "岩",
+            "weapon": "双手剑",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "白术"],
+              ["en", "Baizhu"]
+            ],
+            "star": 5,
+            "label": "Baizhu",
+            "icon": "Baizhu.png",
+            "element": "草",
+            "weapon": "法器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "芭芭拉"],
+              ["en", "Barbara"]
+            ],
+            "star": 4,
+            "label": "Barbara",
+            "icon": "Barbara.png",
+            "element": "水",
+            "weapon": "法器",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "北斗"],
+              ["en", "Beidou"]
+            ],
+            "star": 4,
+            "label": "Beidou",
+            "icon": "Beidou.png",
+            "element": "雷",
+            "weapon": "双手剑",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "班尼特"],
+              ["en", "Bennett"]
+            ],
+            "star": 4,
+            "label": "Bennett",
+            "icon": "Bennett.png",
+            "element": "火",
+            "weapon": "单手剑",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "坎蒂丝"],
+              ["en", "Candace"]
+            ],
+            "star": 4,
+            "label": "Candace",
+            "icon": "Candace.png",
+            "element": "水",
+            "weapon": "长柄武器",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "夏洛蒂"],
+              ["en", "Charlotte"]
+            ],
+            "star": 0,
+            "label": "Charlotte",
+            "icon": "Charlotte.png",
+            "element": "冰",
+            "weapon": "",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "重云"],
+              ["en", "Chongyun"]
+            ],
+            "star": 4,
+            "label": "Chongyun",
+            "icon": "Chongyun.png",
+            "element": "冰",
+            "weapon": "双手剑",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "柯莱"],
+              ["en", "Collei"]
+            ],
+            "star": 4,
+            "label": "Collei",
+            "icon": "Collei.png",
+            "element": "草",
+            "weapon": "弓",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "赛诺"],
+              ["en", "Cyno"]
+            ],
+            "star": 5,
+            "label": "Cyno",
+            "icon": "Cyno.png",
+            "element": "雷",
+            "weapon": "长柄武器",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "迪希雅"],
+              ["en", "Dehya"]
+            ],
+            "star": 5,
+            "label": "Dehya",
+            "icon": "Dehya.png",
+            "element": "火",
+            "weapon": "双手剑",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "迪卢克"],
+              ["en", "Diluc"]
+            ],
+            "star": 5,
+            "label": "Diluc",
+            "icon": "Diluc.png",
+            "element": "火",
+            "weapon": "双手剑",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "迪奥娜"],
+              ["en", "Diona"]
+            ],
+            "star": 4,
+            "label": "Diona",
+            "icon": "Diona.png",
+            "element": "冰",
+            "weapon": "弓",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "多莉"],
+              ["en", "Dori"]
+            ],
+            "star": 4,
+            "label": "Dori",
+            "icon": "Dori.png",
+            "element": "雷",
+            "weapon": "双手剑",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "优菈"],
+              ["en", "Eula"]
+            ],
+            "star": 5,
+            "label": "Eula",
+            "icon": "Eula.png",
+            "element": "冰",
+            "weapon": "双手剑",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "珐露珊"],
+              ["en", "Faruzan"]
+            ],
+            "star": 4,
+            "label": "Faruzan",
+            "icon": "Faruzan.png",
+            "element": "风",
+            "weapon": "弓",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "菲谢尔"],
+              ["en", "Fischl"]
+            ],
+            "star": 4,
+            "label": "Fischl",
+            "icon": "Fischl.png",
+            "element": "雷",
+            "weapon": "弓",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "菲米尼"],
+              ["en", "Freminet"]
+            ],
+            "star": 4,
+            "label": "Freminet",
+            "icon": "Freminet.png",
+            "element": "冰",
+            "weapon": "双手剑",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "芙宁娜"],
+              ["en", "Furina"]
+            ],
+            "star": 0,
+            "label": "Furina",
+            "icon": "Furina.png",
+            "element": "水",
+            "weapon": "",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "甘雨"],
+              ["en", "Ganyu"]
+            ],
+            "star": 5,
+            "label": "Ganyu",
+            "icon": "Ganyu.png",
+            "element": "冰",
+            "weapon": "弓",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "五郎"],
+              ["en", "Gorou"]
+            ],
+            "star": 4,
+            "label": "Gorou",
+            "icon": "Gorou.png",
+            "element": "岩",
+            "weapon": "弓",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "胡桃"],
+              ["en", "Hu Tao"]
+            ],
+            "star": 5,
+            "label": "Hu Tao",
+            "icon": "Hu_Tao.png",
+            "element": "火",
+            "weapon": "长柄武器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "琴"],
+              ["en", "Jean"]
+            ],
+            "star": 5,
+            "label": "Jean",
+            "icon": "Jean.png",
+            "element": "风",
+            "weapon": "单手剑",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "枫原万叶"],
+              ["en", "Kaedehara Kazuha"]
+            ],
+            "star": 5,
+            "label": "Kaedehara Kazuha",
+            "icon": "Kaedehara_Kazuha.png",
+            "element": "风",
+            "weapon": "单手剑",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "凯亚"],
+              ["en", "Kaeya"]
+            ],
+            "star": 4,
+            "label": "Kaeya",
+            "icon": "Kaeya.png",
+            "element": "冰",
+            "weapon": "单手剑",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "神里绫华"],
+              ["en", "Kamisato Ayaka"]
+            ],
+            "star": 5,
+            "label": "Kamisato Ayaka",
+            "icon": "Kamisato_Ayaka.png",
+            "element": "冰",
+            "weapon": "单手剑",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "神里绫人"],
+              ["en", "Kamisato Ayato"]
+            ],
+            "star": 5,
+            "label": "Kamisato Ayato",
+            "icon": "Kamisato_Ayato.png",
+            "element": "水",
+            "weapon": "单手剑",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "卡维"],
+              ["en", "Kaveh"]
+            ],
+            "star": 4,
+            "label": "Kaveh",
+            "icon": "Kaveh.png",
+            "element": "草",
+            "weapon": "双手剑",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "刻晴"],
+              ["en", "Keqing"]
+            ],
+            "star": 5,
+            "label": "Keqing",
+            "icon": "Keqing.png",
+            "element": "雷",
+            "weapon": "单手剑",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "绮良良"],
+              ["en", "Kirara"]
+            ],
+            "star": 4,
+            "label": "Kirara",
+            "icon": "Kirara.png",
+            "element": "草",
+            "weapon": "单手剑",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "可莉"],
+              ["en", "Klee"]
+            ],
+            "star": 5,
+            "label": "Klee",
+            "icon": "Klee.png",
+            "element": "火",
+            "weapon": "法器",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "九条裟罗"],
+              ["en", "Kujou Sara"]
+            ],
+            "star": 4,
+            "label": "Kujou Sara",
+            "icon": "Kujou_Sara.png",
+            "element": "雷",
+            "weapon": "弓",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "久岐忍"],
+              ["en", "Kuki Shinobu"]
+            ],
+            "star": 4,
+            "label": "Kuki Shinobu",
+            "icon": "Kuki_Shinobu.png",
+            "element": "雷",
+            "weapon": "单手剑",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "莱依拉"],
+              ["en", "Layla"]
+            ],
+            "star": 4,
+            "label": "Layla",
+            "icon": "Layla.png",
+            "element": "冰",
+            "weapon": "单手剑",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "丽莎"],
+              ["en", "Lisa"]
+            ],
+            "star": 4,
+            "label": "Lisa",
+            "icon": "Lisa.png",
+            "element": "雷",
+            "weapon": "法器",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "琳妮特"],
+              ["en", "Lynette"]
+            ],
+            "star": 4,
+            "label": "Lynette",
+            "icon": "Lynette.png",
+            "element": "风",
+            "weapon": "单手剑",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "林尼"],
+              ["en", "Lyney"]
+            ],
+            "star": 5,
+            "label": "Lyney",
+            "icon": "Lyney.png",
+            "element": "火",
+            "weapon": "弓",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "米卡"],
+              ["en", "Mika"]
+            ],
+            "star": 4,
+            "label": "Mika",
+            "icon": "Mika.png",
+            "element": "冰",
+            "weapon": "长柄武器",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "莫娜"],
+              ["en", "Mona"]
+            ],
+            "star": 5,
+            "label": "Mona",
+            "icon": "Mona.png",
+            "element": "水",
+            "weapon": "法器",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "纳西妲"],
+              ["en", "Nahida"]
+            ],
+            "star": 5,
+            "label": "Nahida",
+            "icon": "Nahida.png",
+            "element": "草",
+            "weapon": "法器",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "娜维娅"],
+              ["en", "Navia"]
+            ],
+            "star": 0,
+            "label": "Navia",
+            "icon": "Navia.png",
+            "element": "岩",
+            "weapon": "",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "那维莱特"],
+              ["en", "Neuvillette"]
+            ],
+            "star": 5,
+            "label": "Neuvillette",
+            "icon": "Neuvillette.png",
+            "element": "水",
+            "weapon": "法器",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "妮露"],
+              ["en", "Nilou"]
+            ],
+            "star": 5,
+            "label": "Nilou",
+            "icon": "Nilou.png",
+            "element": "水",
+            "weapon": "单手剑",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "凝光"],
+              ["en", "Ningguang"]
+            ],
+            "star": 4,
+            "label": "Ningguang",
+            "icon": "Ningguang.png",
+            "element": "岩",
+            "weapon": "法器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "诺艾尔"],
+              ["en", "Noelle"]
+            ],
+            "star": 4,
+            "label": "Noelle",
+            "icon": "Noelle.png",
+            "element": "岩",
+            "weapon": "双手剑",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "派蒙"],
+              ["en", "Paimon"]
+            ],
+            "star": 0,
+            "label": "Paimon",
+            "icon": "Paimon.png",
+            "element": "无",
+            "weapon": "",
+            "area": "提瓦特"
+          },
+          {
+            "name": [
+              ["zh", "七七"],
+              ["en", "Qiqi"]
+            ],
+            "star": 5,
+            "label": "Qiqi",
+            "icon": "Qiqi.png",
+            "element": "冰",
+            "weapon": "单手剑",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "雷电将军"],
+              ["en", "Raiden Shogun"]
+            ],
+            "star": 5,
+            "label": "Raiden Shogun",
+            "icon": "Raiden_Shogun.png",
+            "element": "雷",
+            "weapon": "长柄武器",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "雷泽"],
+              ["en", "Razor"]
+            ],
+            "star": 4,
+            "label": "Razor",
+            "icon": "Razor.png",
+            "element": "雷",
+            "weapon": "双手剑",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "罗莎莉亚"],
+              ["en", "Rosaria"]
+            ],
+            "star": 4,
+            "label": "Rosaria",
+            "icon": "Rosaria.png",
+            "element": "冰",
+            "weapon": "长柄武器",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "珊瑚宫心海"],
+              ["en", "Sangonomiya Kokomi"]
+            ],
+            "star": 5,
+            "label": "Sangonomiya Kokomi",
+            "icon": "Sangonomiya_Kokomi.png",
+            "element": "水",
+            "weapon": "法器",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "早柚"],
+              ["en", "Sayu"]
+            ],
+            "star": 4,
+            "label": "Sayu",
+            "icon": "Sayu.png",
+            "element": "风",
+            "weapon": "双手剑",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "申鹤"],
+              ["en", "Shenhe"]
+            ],
+            "star": 5,
+            "label": "Shenhe",
+            "icon": "Shenhe.png",
+            "element": "冰",
+            "weapon": "长柄武器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "鹿野院平藏"],
+              ["en", "Shikanoin Heizou"]
+            ],
+            "star": 4,
+            "label": "Shikanoin Heizou",
+            "icon": "Shikanoin_Heizou.png",
+            "element": "风",
+            "weapon": "法器",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "砂糖"],
+              ["en", "Sucrose"]
+            ],
+            "star": 4,
+            "label": "Sucrose",
+            "icon": "Sucrose.png",
+            "element": "风",
+            "weapon": "法器",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "达达利亚"],
+              ["en", "Tartaglia"]
+            ],
+            "star": 5,
+            "label": "Tartaglia",
+            "icon": "Tartaglia.png",
+            "element": "水",
+            "weapon": "弓",
+            "area": "至冬"
+          },
+          {
+            "name": [
+              ["zh", "托马"],
+              ["en", "Thoma"]
+            ],
+            "star": 4,
+            "label": "Thoma",
+            "icon": "Thoma.png",
+            "element": "火",
+            "weapon": "长柄武器",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "提纳里"],
+              ["en", "Tighnari"]
+            ],
+            "star": 5,
+            "label": "Tighnari",
+            "icon": "Tighnari.png",
+            "element": "草",
+            "weapon": "弓",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "荧"],
+              ["en", "Traveler (Female)"]
+            ],
+            "star": 5,
+            "label": "Traveler (Female)",
+            "icon": "Traveler_(Female).png",
+            "element": "风",
+            "weapon": "单手剑",
+            "area": "异世"
+          },
+          {
+            "name": [
+              ["zh", "空"],
+              ["en", "Traveler (Male)"]
+            ],
+            "star": 5,
+            "label": "Traveler (Male)",
+            "icon": "Traveler_(Male).png",
+            "element": "风",
+            "weapon": "单手剑",
+            "area": "异世"
+          },
+          {
+            "name": [
+              ["zh", "温迪"],
+              ["en", "Venti"]
+            ],
+            "star": 5,
+            "label": "Venti",
+            "icon": "Venti.png",
+            "element": "风",
+            "weapon": "弓",
+            "area": "蒙德"
+          },
+          {
+            "name": [
+              ["zh", "流浪者"],
+              ["en", "Wanderer"]
+            ],
+            "star": 5,
+            "label": "Wanderer",
+            "icon": "Wanderer.png",
+            "element": "风",
+            "weapon": "法器",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "香菱"],
+              ["en", "Xiangling"]
+            ],
+            "star": 4,
+            "label": "Xiangling",
+            "icon": "Xiangling.png",
+            "element": "火",
+            "weapon": "长柄武器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "魈"],
+              ["en", "Xiao"]
+            ],
+            "star": 5,
+            "label": "Xiao",
+            "icon": "Xiao.png",
+            "element": "风",
+            "weapon": "长柄武器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "行秋"],
+              ["en", "Xingqiu"]
+            ],
+            "star": 4,
+            "label": "Xingqiu",
+            "icon": "Xingqiu.png",
+            "element": "水",
+            "weapon": "单手剑",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "辛焱"],
+              ["en", "Xinyan"]
+            ],
+            "star": 4,
+            "label": "Xinyan",
+            "icon": "Xinyan.png",
+            "element": "火",
+            "weapon": "双手剑",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "八重神子"],
+              ["en", "Yae Miko"]
+            ],
+            "star": 5,
+            "label": "Yae Miko",
+            "icon": "Yae_Miko.png",
+            "element": "雷",
+            "weapon": "法器",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "烟绯"],
+              ["en", "Yanfei"]
+            ],
+            "star": 4,
+            "label": "Yanfei",
+            "icon": "Yanfei.png",
+            "element": "火",
+            "weapon": "法器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "瑶瑶"],
+              ["en", "Yaoyao"]
+            ],
+            "star": 4,
+            "label": "Yaoyao",
+            "icon": "Yaoyao.png",
+            "element": "草",
+            "weapon": "长柄武器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "夜兰"],
+              ["en", "Yelan"]
+            ],
+            "star": 5,
+            "label": "Yelan",
+            "icon": "Yelan.png",
+            "element": "水",
+            "weapon": "弓",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "宵宫"],
+              ["en", "Yoimiya"]
+            ],
+            "star": 5,
+            "label": "Yoimiya",
+            "icon": "Yoimiya.png",
+            "element": "火",
+            "weapon": "弓",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "云堇"],
+              ["en", "Yun Jin"]
+            ],
+            "star": 4,
+            "label": "Yun Jin",
+            "icon": "Yun_Jin.png",
+            "element": "岩",
+            "weapon": "长柄武器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "钟离"],
+              ["en", "Zhongli"]
+            ],
+            "star": 5,
+            "label": "Zhongli",
+            "icon": "Zhongli.png",
+            "element": "岩",
+            "weapon": "长柄武器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "莱欧斯利"],
+              ["en", "Wriothesley"]
+            ],
+            "star": 5,
+            "label": "Wriothesley",
+            "icon": "Wriothesley.png",
+            "element": "冰",
+            "weapon": "法器",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "夏沃蕾"],
+              ["en", "Chevreuse"]
+            ],
+            "star": 4,
+            "label": "Chevreuse",
+            "icon": "Chevreuse.png",
+            "element": "火",
+            "weapon": "长柄武器",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "闲云"],
+              ["en", "Xianyun"]
+            ],
+            "star": 5,
+            "label": "Xianyun",
+            "icon": "Xianyun.png",
+            "element": "风",
+            "weapon": "法器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "嘉明"],
+              ["en", "Gaming"]
+            ],
+            "star": 4,
+            "label": "Gaming",
+            "icon": "Gaming.png",
+            "element": "火",
+            "weapon": "双手剑",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "千织"],
+              ["en", "Chiori"]
+            ],
+            "star": 5,
+            "label": "Chiori",
+            "icon": "Chiori.png",
+            "element": "岩",
+            "weapon": "单手剑",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "阿蕾奇诺"],
+              ["en", "Arlecchino"]
+            ],
+            "star": 5,
+            "label": "Arlecchino",
+            "icon": "Arlecchino.png",
+            "element": "火",
+            "weapon": "长柄武器",
+            "area": "至冬"
+          },
+          {
+            "name": [
+              ["zh", "克洛琳德"],
+              ["en", "Clorinde"]
+            ],
+            "star": 5,
+            "label": "Clorinde",
+            "icon": "Clorinde.png",
+            "element": "雷",
+            "weapon": "单手剑",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "希格雯"],
+              ["en", "Sigewinne"]
+            ],
+            "star": 5,
+            "label": "Sigewinne",
+            "icon": "Sigewinne.png",
+            "element": "水",
+            "weapon": "弓",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "赛索斯"],
+              ["en", "Sethos"]
+            ],
+            "star": 4,
+            "label": "Sethos",
+            "icon": "Sethos.png",
+            "element": "雷",
+            "weapon": "弓",
+            "area": "须弥"
+          },
+          {
+            "name": [
+              ["zh", "艾梅莉埃"],
+              ["en", "Emilie"]
+            ],
+            "star": 5,
+            "label": "Emilie",
+            "icon": "Emilie.png",
+            "element": "草",
+            "weapon": "长柄武器",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "穆阿拉尼"],
+              ["en", "Mualani"]
+            ],
+            "star": 5,
+            "label": "Mualani",
+            "icon": "Mualani.png",
+            "element": "水",
+            "weapon": "法器",
+            "area": "纳塔"
+          },
+          {
+            "name": [
+              ["zh", "基尼奇"],
+              ["en", "Kinich"]
+            ],
+            "star": 5,
+            "label": "Kinich",
+            "icon": "Kinich.png",
+            "element": "草",
+            "weapon": "双手剑",
+            "area": "纳塔"
+          },
+          {
+            "name": [
+              ["zh", "卡奇纳"],
+              ["en", "Kachina"]
+            ],
+            "star": 4,
+            "label": "Kachina",
+            "icon": "Kachina.png",
+            "element": "岩",
+            "weapon": "长柄武器",
+            "area": "纳塔"
+          },
+          {
+            "name": [
+              ["zh", "希洛宁"],
+              ["en", "Xilonen"]
+            ],
+            "star": 5,
+            "label": "Xilonen",
+            "icon": "Xilonen.png",
+            "element": "岩",
+            "weapon": "单手剑",
+            "area": "纳塔"
+          },
+          {
+            "name": [
+              ["zh", "查斯卡"],
+              ["en", "Chasca"]
+            ],
+            "star": 5,
+            "label": "Chasca",
+            "icon": "Chasca.png",
+            "element": "风",
+            "weapon": "弓",
+            "area": "纳塔"
+          },
+          {
+            "name": [
+              ["zh", "奥罗伦"],
+              ["en", "Ororon"]
+            ],
+            "star": 4,
+            "label": "Ororon",
+            "icon": "Ororon.png",
+            "element": "雷",
+            "weapon": "弓",
+            "area": "纳塔"
+          },
+          {
+            "name": [
+              ["zh", "西特拉利"],
+              ["en", "Citlali"]
+            ],
+            "star": 5,
+            "label": "Citlali",
+            "icon": "Citlali.png",
+            "element": "冰",
+            "weapon": "法器",
+            "area": "纳塔"
+          },
+          {
+            "name": [
+              ["zh", "马乌伊卡"],
+              ["en", "Mavuika"]
+            ],
+            "star": 5,
+            "label": "Mavuika",
+            "icon": "Mavuika.png",
+            "element": "火",
+            "weapon": "双手剑",
+            "area": "纳塔"
+          },
+          {
+            "name": [
+              ["zh", "兰燕"],
+              ["en", "Lan Yan"]
+            ],
+            "star": 4,
+            "label": "Lan Yan",
+            "icon": "Lan_Yan.png",
+            "element": "风",
+            "weapon": "法器",
+            "area": "璃月"
+          },
+          {
+            "name": [
+              ["zh", "梦见月瑞希"],
+              ["en", "Yumemizuki Mizuki"]
+            ],
+            "star": 5,
+            "label": "Yumemizuki Mizuki",
+            "icon": "Mizuki.png",
+            "element": "风",
+            "weapon": "法器",
+            "area": "稻妻"
+          },
+          {
+            "name": [
+              ["zh", "瓦雷萨"],
+              ["en", "Varesa"]
+            ],
+            "star": 5,
+            "label": "Varesa",
+            "icon": "Varesa.png",
+            "element": "雷",
+            "weapon": "法器",
+            "area": "至冬"
+          },
+          {
+            "name": [
+              ["zh", "伊安珊"],
+              ["en", "Iansan"]
+            ],
+            "star": 5,
+            "label": "Iansan",
+            "icon": "Iansan.png",
+            "element": "雷",
+            "weapon": "长柄武器",
+            "area": "纳塔"
+          },
+          {
+            "name": [
+              ["zh", "埃斯科菲耶"],
+              ["en", "Escoffier"]
+            ],
+            "star": 5,
+            "label": "Escoffier",
+            "icon": "Escoffier.png",
+            "element": "冰",
+            "weapon": "长柄武器",
+            "area": "枫丹"
+          },
+          {
+            "name": [
+              ["zh", "丝柯克"],
+              ["en", "Skirk"]
+            ],
+            "star": 5,
+            "label": "Skirk",
+            "icon": "Skirk.png",
+            "element": "冰",
+            "weapon": "单手剑",
+            "area": "深渊"
+          },
+          {
+            "name": [
+              ["zh", "大丽花"],
+              ["en", "Dahlia"]
+            ],
+            "star": 4,
+            "label": "Dahlia",
+            "icon": "Dahlia.png",
+            "element": "水",
+            "weapon": "单手剑",
+            "area": "枫丹"
+          }
+        ],
+        "filters": [
+          {
+            "name": [["zh", "元素"]],
+            "key": "element",
+            "list": [
+              {
+                "name": [["zh", "水"]],
+                "icon": "/icon/genshin_impact/Element_Hydro.png",
+                "value": "水"
+              },
+              {
+                "name": [["zh", "风"]],
+                "icon": "/icon/genshin_impact/Element_Anemo.png",
+                "value": "风"
+              },
+              {
+                "name": [["zh", "火"]],
+                "icon": "/icon/genshin_impact/Element_Pyro.png",
+                "value": "火"
+              },
+              {
+                "name": [["zh", "雷"]],
+                "icon": "/icon/genshin_impact/Element_Electro.png",
+                "value": "雷"
+              },
+              {
+                "name": [["zh", "岩"]],
+                "icon": "/icon/genshin_impact/Element_Geo.png",
+                "value": "岩"
+              },
+              {
+                "name": [["zh", "草"]],
+                "icon": "/icon/genshin_impact/Element_Dendro.png",
+                "value": "草"
+              },
+              {
+                "name": [["zh", "冰"]],
+                "icon": "/icon/genshin_impact/Element_Cryo.png",
+                "value": "冰"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": [["zh", "武器"]],
+        "value": "weapons",
+        "icon": "/icon/genshin_impact/weapon.png",
+        "list": []
+      },
+      {
+        "name": [["zh", "NPC"]],
+        "value": "npcs",
+        "icon": "/icon/genshin_impact/npc.png",
+        "list": []
+      },
+      {
+        "name": [["zh", "UI"]],
+        "value": "ui",
+        "icon": "/icon/genshin_impact/ui.png",
+        "list": []
+      },
+      {
+        "name": [["zh", "场景"]],
+        "value": "context",
+        "icon": "/icon/genshin_impact/context.png",
+        "list": []
+      },
+      {
+        "name": [["zh", "其他"]],
+        "value": "others",
+        "icon": "/icon/genshin_impact/others.png",
+        "list": []
+      }
+    ]
+  },
+  {
+    "name": [
+      ["zh", "崩铁"],
+      ["en", "honkai_starrail"]
+    ],
+    "icon": "/icon/honkai_starrail/icon.png",
+    "value": "honkai_starrail",
+    "bg": "/icon/honkai_starrail/bg.png",
+    "migoto_path": "",
+    "game_path": "",
+    "classes": []
+  },
+  {
+    "name": [
+      ["en", "wuthering_waves"],
+      ["zh", " 鸣潮"]
+    ],
+    "icon": "/icon/wuthering_waves/icon.png",
+    "bg": "/icon/wuthering_waves/bg.jpg",
+    "value": "wuthering_waves",
+    "migoto_path": "",
+    "game_path": "",
+    "classes": []
+  },
+  {
+    "name": [
+      ["en", "zenless_zone_zero.png"],
+      ["zh", "绝区零"]
+    ],
+    "icon": "/icon/zenless_zone_zero/icon.png",
+    "bg": "/icon/zenless_zone_zero/bg.png",
+    "value": "zenless_zone_zero",
+    "migoto_path": "",
+    "game_path": "",
+    "classes": []
+  }
+]

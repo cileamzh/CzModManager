@@ -1,0 +1,496 @@
+{
+  "zh": {
+    "characters": [
+      {
+        "name": "弗洛洛",
+        "icon": "弗洛洛.png",
+        "star": 4,
+        "element": "气动",
+        "label": "弗洛洛"
+      },
+      {
+        "name": "露帕",
+        "icon": "露帕.png",
+        "star": 4,
+        "element": "热熔",
+        "label": "露帕"
+      },
+      {
+        "name": "卡提希娅",
+        "icon": "卡提希娅.png",
+        "star": 4,
+        "element": "气动",
+        "label": "卡提希娅"
+      },
+      {
+        "name": "夏空",
+        "icon": "夏空.png",
+        "star": 4,
+        "element": "冷凝",
+        "label": "夏空"
+      },
+      {
+        "name": "秧秧",
+        "icon": "秧秧.png",
+        "star": 4,
+        "element": "气动",
+        "label": "秧秧"
+      },
+      {
+        "name": "卡卡罗",
+        "icon": "卡卡罗.png",
+        "star": 5,
+        "element": "导电",
+        "label": "卡卡罗"
+      },
+      {
+        "name": "漂泊者",
+        "icon": "漂泊者.png",
+        "star": 5,
+        "element": "物理",
+        "label": "漂泊者"
+      },
+      {
+        "name": "布兰特",
+        "icon": "布兰特.png",
+        "star": 4,
+        "element": "湮灭",
+        "label": "布兰特"
+      },
+      {
+        "name": "菲比",
+        "icon": "菲比.png",
+        "star": 4,
+        "element": "冷凝",
+        "label": "菲比"
+      },
+      {
+        "name": "莫特斐",
+        "icon": "莫特斐.png",
+        "star": 4,
+        "element": "热熔",
+        "label": "莫特斐"
+      },
+      {
+        "name": "丹瑾",
+        "icon": "丹瑾.png",
+        "star": 4,
+        "element": "湮灭",
+        "label": "丹瑾"
+      },
+      {
+        "name": "灯灯",
+        "icon": "灯灯.png",
+        "star": 4,
+        "element": "热熔",
+        "label": "灯灯"
+      },
+      {
+        "name": "鉴心",
+        "icon": "鉴心.png",
+        "star": 5,
+        "element": "气动",
+        "label": "鉴心"
+      },
+      {
+        "name": "守岸人",
+        "icon": "守岸人.png",
+        "star": 4,
+        "element": "热熔",
+        "label": "守岸人"
+      },
+      {
+        "name": "赞妮",
+        "icon": "赞妮.png",
+        "star": 4,
+        "element": "物理",
+        "label": "赞妮"
+      },
+      {
+        "name": "折枝",
+        "icon": "折枝.png",
+        "star": 4,
+        "element": "湮灭",
+        "label": "折枝"
+      },
+      {
+        "name": "今汐",
+        "icon": "今汐.png",
+        "star": 5,
+        "element": "湮灭",
+        "label": "今汐"
+      },
+      {
+        "name": "长离",
+        "icon": "长离.png",
+        "star": 5,
+        "element": "热熔",
+        "label": "长离"
+      },
+      {
+        "name": "吟霖",
+        "icon": "吟霖.png",
+        "star": 5,
+        "element": "导电",
+        "label": "吟霖"
+      },
+      {
+        "name": "洛可可",
+        "icon": "洛可可.png",
+        "star": 4,
+        "element": "导电",
+        "label": "洛可可"
+      },
+      {
+        "name": "安可",
+        "icon": "安可.png",
+        "star": 5,
+        "element": "热熔",
+        "label": "安可"
+      },
+      {
+        "name": "维里奈",
+        "icon": "维里奈.png",
+        "star": 5,
+        "element": "衍射",
+        "label": "维里奈"
+      },
+      {
+        "name": "忌炎",
+        "icon": "忌炎.png",
+        "star": 5,
+        "element": "气动",
+        "label": "忌炎"
+      },
+      {
+        "name": "凌阳",
+        "icon": "凌阳.png",
+        "star": 5,
+        "element": "冷凝",
+        "label": "凌阳"
+      },
+      {
+        "name": "椿",
+        "icon": "椿.png",
+        "star": 4,
+        "element": "气动",
+        "label": "椿"
+      },
+      {
+        "name": "相里要",
+        "icon": "相里要.png",
+        "star": 4,
+        "element": "物理",
+        "label": "相里要"
+      },
+      {
+        "name": "珂莱塔",
+        "icon": "珂莱塔.png",
+        "star": 5,
+        "element": "热熔",
+        "label": "珂莱塔"
+      },
+      {
+        "name": "炽霞",
+        "icon": "炽霞.png",
+        "star": 4,
+        "element": "热熔",
+        "label": "炽霞"
+      },
+      {
+        "name": "渊武",
+        "icon": "渊武.png",
+        "star": 4,
+        "element": "导电",
+        "label": "渊武"
+      },
+      {
+        "name": "釉瑚",
+        "icon": "釉瑚.png",
+        "star": 4,
+        "element": "物理",
+        "label": "釉瑚"
+      },
+      {
+        "name": "秋水",
+        "icon": "秋水.png",
+        "star": 4,
+        "element": "冷凝",
+        "label": "秋水"
+      },
+      {
+        "name": "散华",
+        "icon": "散华.png",
+        "star": 4,
+        "element": "冷凝",
+        "label": "散华"
+      },
+      {
+        "name": "白芷",
+        "icon": "白芷.png",
+        "star": 4,
+        "element": "冷凝",
+        "label": "白芷"
+      },
+      {
+        "name": "桃祈",
+        "icon": "桃祈.png",
+        "star": 4,
+        "element": "物理",
+        "label": "桃祈"
+      }
+    ],
+    "weapons": [],
+    "npcs": [],
+    "ui": [],
+    "context": [],
+    "others": []
+  },
+  "en": {
+    "characters": [
+      {
+        "name": "Floro",
+        "icon": "弗洛洛.png",
+        "star": 4,
+        "element": "Aero",
+        "label": "弗洛洛"
+      },
+      {
+        "name": "Lucy",
+        "icon": "露帕.png",
+        "star": 4,
+        "element": "Fusion",
+        "label": "露帕"
+      },
+      {
+        "name": "Catisa",
+        "icon": "卡提希娅.png",
+        "star": 4,
+        "element": "Aero",
+        "label": "卡提希娅"
+      },
+      {
+        "name": "Xia Kong",
+        "icon": "夏空.png",
+        "star": 4,
+        "element": "Glacio",
+        "label": "夏空"
+      },
+      {
+        "name": "Yangyang",
+        "icon": "秧秧.png",
+        "star": 4,
+        "element": "Aero",
+        "label": "秧秧"
+      },
+      {
+        "name": "Calcharo",
+        "icon": "卡卡罗.png",
+        "star": 5,
+        "element": "Electro",
+        "label": "卡卡罗"
+      },
+      {
+        "name": "Rover",
+        "icon": "漂泊者.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "漂泊者"
+      },
+      {
+        "name": "Brant",
+        "icon": "布兰特.png",
+        "star": 4,
+        "element": "Havoc",
+        "label": "布兰特"
+      },
+      {
+        "name": "Feibi",
+        "icon": "菲比.png",
+        "star": 4,
+        "element": "Glacio",
+        "label": "菲比"
+      },
+      {
+        "name": "Mortefi",
+        "icon": "莫特斐.png",
+        "star": 4,
+        "element": "Fusion",
+        "label": "莫特斐"
+      },
+      {
+        "name": "Danjin",
+        "icon": "丹瑾.png",
+        "star": 4,
+        "element": "Havoc",
+        "label": "丹瑾"
+      },
+      {
+        "name": "Dengdeng",
+        "icon": "灯灯.png",
+        "star": 4,
+        "element": "Fusion",
+        "label": "灯灯"
+      },
+      {
+        "name": "Jianxin",
+        "icon": "鉴心.png",
+        "star": 5,
+        "element": "Aero",
+        "label": "鉴心"
+      },
+      {
+        "name": "Shorekeeper",
+        "icon": "守岸人.png",
+        "star": 4,
+        "element": "Fusion",
+        "label": "守岸人"
+      },
+      {
+        "name": "Zanni",
+        "icon": "赞妮.png",
+        "star": 4,
+        "element": "Physical",
+        "label": "赞妮"
+      },
+      {
+        "name": "Zhezhi",
+        "icon": "折枝.png",
+        "star": 4,
+        "element": "Havoc",
+        "label": "折枝"
+      },
+      {
+        "name": "Jinxin",
+        "icon": "今汐.png",
+        "star": 5,
+        "element": "Havoc",
+        "label": "今汐"
+      },
+      {
+        "name": "Changli",
+        "icon": "长离.png",
+        "star": 5,
+        "element": "Fusion",
+        "label": "长离"
+      },
+      {
+        "name": "Yinlin",
+        "icon": "吟霖.png",
+        "star": 5,
+        "element": "Electro",
+        "label": "吟霖"
+      },
+      {
+        "name": "Rococo",
+        "icon": "洛可可.png",
+        "star": 4,
+        "element": "Electro",
+        "label": "洛可可"
+      },
+      {
+        "name": "Anke",
+        "icon": "安可.png",
+        "star": 5,
+        "element": "Fusion",
+        "label": "安可"
+      },
+      {
+        "name": "Verina",
+        "icon": "维里奈.png",
+        "star": 5,
+        "element": "Spectro",
+        "label": "维里奈"
+      },
+      {
+        "name": "Jiyan",
+        "icon": "忌炎.png",
+        "star": 5,
+        "element": "Aero",
+        "label": "忌炎"
+      },
+      {
+        "name": "Lingyang",
+        "icon": "凌阳.png",
+        "star": 5,
+        "element": "Glacio",
+        "label": "凌阳"
+      },
+      {
+        "name": "Chun",
+        "icon": "椿.png",
+        "star": 4,
+        "element": "Aero",
+        "label": "椿"
+      },
+      {
+        "name": "Xiangli Yao",
+        "icon": "相里要.png",
+        "star": 4,
+        "element": "Physical",
+        "label": "相里要"
+      },
+      {
+        "name": "Coleta",
+        "icon": "珂莱塔.png",
+        "star": 5,
+        "element": "Fusion",
+        "label": "珂莱塔"
+      },
+      {
+        "name": "Chixia",
+        "icon": "炽霞.png",
+        "star": 4,
+        "element": "Fusion",
+        "label": "炽霞"
+      },
+      {
+        "name": "Yuanwu",
+        "icon": "渊武.png",
+        "star": 4,
+        "element": "Electro",
+        "label": "渊武"
+      },
+      {
+        "name": "Youhu",
+        "icon": "釉瑚.png",
+        "star": 4,
+        "element": "Physical",
+        "label": "釉瑚"
+      },
+      {
+        "name": "Qiushui",
+        "icon": "秋水.png",
+        "star": 4,
+        "element": "Glacio",
+        "label": "秋水"
+      },
+      {
+        "name": "Sanhua",
+        "icon": "散华.png",
+        "star": 4,
+        "element": "Glacio",
+        "label": "散华"
+      },
+      {
+        "name": "Baizhi",
+        "icon": "白芷.png",
+        "star": 4,
+        "element": "Glacio",
+        "label": "白芷"
+      },
+      {
+        "name": "Taoqi",
+        "icon": "桃祈.png",
+        "star": 4,
+        "element": "Physical",
+        "label": "桃祈"
+      }
+    ],
+    "weapons": [],
+    "npcs": [],
+    "ui": [],
+    "context": [],
+    "others": []
+  }
+}

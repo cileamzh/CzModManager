@@ -1,0 +1,573 @@
+// ==================== CSS 变量定义 ====================
+.viewer {
+  // 主题色
+  --bg-primary: #2c3340; // 主背景色
+  --bg-secondary: #323947; // 次背景色，用于卡片、侧边栏
+  --bg-tertiary: #222630; // 第三层背景色，用于搜索框、设置项等
+
+  // 文本和图标颜色
+  --text-white: white; // 纯白色文本
+  --text-disabled: #888; // 灰色禁用文本
+  --text-inactive: #c0c0c0; // 非活跃状态文本颜色
+  --text-secondary: #e0e0e0; // 次要文本颜色
+  --text-dark: #333; // 深色文本（用于浅色按钮）
+  --text-green: rgb(80, 173, 94); // 用于“used”状态的绿色
+
+  // 边框和分割线
+  --border-color-dark: #444; // 深色边框
+  --border-color-medium: #555; // 中等深浅的边框
+  --border-color-light: #ccc; // 浅色边框
+  --border-color-transparent: rgba(255, 255, 255, 0.183); // 半透明白色边框
+  --border-color-hover: #666; // 悬停边框
+  --border-color-hover-subtle: rgba(255, 255, 255, 0.169); // 半透明悬停边框
+
+  // 交互状态颜色
+  --hover-bg-dark: rgba(0, 0, 0, 0.217); // 深色背景上的悬停色
+  --hover-bg-light: #e0e0e0; // 浅色背景上的悬停色
+  --active-highlight: rgba(220, 220, 220, 0.276); // 活跃/选中背景色
+  --hover-bg-gray: gray; // 灰色的悬停背景
+
+  // 阴影
+  --shadow-default: 0 4px 12px rgba(0, 0, 0, 0.08); // 默认阴影
+  --shadow-dark: 0 4px 12px rgba(0, 0, 0, 0.3); // 深色阴影
+  --shadow-button: 0 1px 2px rgba(0, 0, 0, 0.2); // 按钮阴影
+  --shadow-button-hover: 0 2px 4px rgba(0, 0, 0, 0.3); // 按钮悬停阴影
+  --shadow-button-active: inset 0 1px 2px rgba(0, 0, 0, 0.5); // 按钮按下阴影
+}
+// ==================== 全局布局和基础样式 ====================
+.viewer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  background-color: var(--bg-primary);
+  color: var(--text-white);
+  user-select: none;
+}
+.fragment {
+  padding: 10px;
+  height: 100%;
+  width: 150px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  transition: 0.5s;
+  background-color: var(--bg-secondary);
+  .fragment-item {
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    transition: 0.3s;
+    border-radius: 20px;
+    img {
+      height: 30px;
+      width: 30px;
+    }
+    &:hover {
+      background-color: var(--hover-bg-dark);
+    }
+  }
+}
+.icon_fragment {
+  width: 60px;
+  .fragment-item {
+    justify-content: center;
+  }
+}
+.selected_class {
+  background-color: var(--hover-bg-dark);
+}
+.detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+  .filter {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    overflow: visible;
+    .search-filter {
+      background-color: var(--bg-tertiary);
+      height: 25px;
+      color: var(--text-white);
+    }
+    .filter-logo {
+      border-radius: 15px;
+      transition: all 0.3s;
+      background-color: var(--bg-tertiary);
+      border: var(--bg-tertiary) 1px solid;
+      height: 30px;
+      width: 30px;
+      &:hover {
+        background-color: var(--active-highlight);
+        border: 0.5px var(--border-color-transparent) solid;
+      }
+      &.selected {
+        background-color: var(--active-highlight);
+      }
+      img {
+        height: 20px;
+        width: 20px;
+      }
+    }
+    .fc-box {
+      overflow: visible;
+      position: relative;
+      left: -6px;
+      top: 18px;
+      height: 1px;
+      width: 1px;
+    }
+    .filter-content {
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      height: 0px;
+      width: 0px;
+      background-color: var(--bg-tertiary);
+      border-radius: 5px;
+      z-index: 1;
+      transition: all 0.5s;
+      overflow: hidden;
+      .filter-item {
+        margin: 5px 5px 0px 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        .filter-icon {
+          transition: 0.3s;
+          padding: 5px;
+          height: 30px;
+          min-width: 30px;
+          border-radius: 15px;
+          border: 1px solid var(--bg-primary);
+          word-break: keep-all;
+          img {
+            height: 20px;
+            width: 20px;
+          }
+          &:hover {
+            background-color: var(--hover-bg-gray);
+          }
+          &.selected {
+            background-color: var(--active-highlight);
+          }
+        }
+      }
+    }
+    .show-filter {
+      height: 150px;
+      width: 250px;
+    }
+  }
+  .content {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    gap: 10px;
+    overflow: hidden;
+    .relc {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      max-height: 98%;
+      gap: 10px;
+      flex: 1;
+      align-items: start;
+      overflow: auto;
+      .card {
+        padding: 5px;
+        background-color: var(--bg-secondary);
+        border-radius: 10px 10px 25px 10px;
+        height: 120px;
+        width: 100px;
+        cursor: pointer;
+        transition: 0.3s;
+        .card-border {
+          border: 1px solid var(--border-color-transparent);
+          padding: 5px;
+          height: 100%;
+          width: 100%;
+          border-radius: 10px 10px 25px 10px;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+          align-items: center;
+          img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+          }
+        }
+      }
+      .selected {
+        background-color: var(--bg-tertiary);
+      }
+      .card:hover {
+        background-color: var(--bg-tertiary);
+      }
+    }
+    .relm {
+      padding: 0px 10px 0px 0px;
+      height: 98%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+      gap: 10px;
+      .modlist {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        .mod-item {
+          padding: 5px;
+          border-radius: 10px;
+          background-color: var(--bg-secondary);
+          width: 100%;
+          height: 60px;
+          transition: 0.2s;
+          .mod-border {
+            display: flex;
+            border: 1px solid var(--border-color-transparent);
+            border-radius: 10px;
+            height: 100%;
+            width: 100%;
+            padding: 2px 10px;
+            align-items: center;
+            justify-content: space-between;
+            .round {
+              height: 12px;
+              width: 12px;
+              border-radius: 10px;
+              background-color: var(--text-white);
+            }
+            .used {
+              background-color: var(--text-green);
+            }
+          }
+          &:hover {
+            background-color: var(--bg-tertiary);
+          }
+        }
+        .selected {
+          background-color: var(--bg-tertiary);
+        }
+      }
+      .preview {
+        display: flex;
+        flex-direction: column;
+        height: 98%;
+        flex: 1;
+      }
+      .divide-line {
+        height: 1px;
+        background-color: var(--bg-secondary);
+        width: 100%;
+      }
+    }
+    .divide-line {
+      height: 98%;
+      background-color: var(--bg-secondary);
+      width: 1px;
+    }
+  }
+  .content.list_view {
+    .relc {
+      width: 120px;
+      height: 98%;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      overflow-y: auto;
+      flex-wrap: nowrap;
+      .card {
+        padding: 5px;
+        border-radius: 10px 10px 25px 10px;
+        height: 60px;
+        width: 100%;
+        cursor: pointer;
+        .card-border {
+          border: 1px solid var(--border-color-transparent);
+          padding: 5px;
+          height: 100%;
+          width: 100%;
+          border-radius: 10px 10px 25px 10px;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          align-items: center;
+          img {
+            height: 25px;
+            width: 25px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+    .relm {
+      flex: 3;
+      flex-direction: row;
+      height: 100%;
+      .modlist {
+        width: 120px;
+        height: 98%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 1;
+      }
+      .divide-line {
+        height: 98%;
+        background-color: var(--bg-secondary);
+        width: 1px;
+      }
+      .preview {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+      }
+    }
+  }
+}
+.card-menu {
+  width: 80px;
+  height: 100px;
+  background-color: var(--bg-tertiary);
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid rgba(221, 221, 221, 0.338);
+  display: flex;
+  color: var(--text-white);
+  flex-direction: column;
+  padding: 5px;
+  overflow: hidden;
+  user-select: none;
+  gap: 5px;
+  div {
+    width: 100%;
+    flex-shrink: 0;
+    height: 20px;
+    border-radius: 5px;
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    word-break: keep-all;
+    &:hover {
+      background-color: var(--bg-secondary);
+    }
+  }
+}
+.hidden {
+  display: block;
+  height: 0px;
+  width: 0px;
+  padding: 0px;
+  border: none;
+}
+.image-viewer-container {
+  padding: 15px;
+  /* 增加内边距 */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 12px;
+  /* 增加圆角 */
+  background-color: var(--bg-tertiary);
+  /* 浅灰色背景 */
+  box-shadow: var(--shadow-default);
+  /* 柔和的阴影 */
+}
+.image-viewer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  max-width: 100%;
+  max-height: calc(100% - 60px);
+  /* 预留底部控制区空间 */
+  margin-bottom: 15px;
+  /* 图片与控制区间的间距 */
+}
+.preview-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  /* 图片圆角 */
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  /* 图片切换动画 */
+}
+.no-images {
+  color: var(--text-disabled);
+  font-size: 14px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  /* 控制区固定高度 */
+}
+.nav {
+  display: flex;
+  gap: 15px;
+  /* 增加按钮和序列号的间距 */
+  align-items: center;
+}
+.nav-button {
+  background-color: var(--text-white);
+  color: var(--text-dark);
+  border: 1px solid var(--border-color-light);
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  /* 圆形按钮 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav-button:hover:not(:disabled) {
+  background-color: var(--hover-bg-light);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  /* 悬停时轻微上浮 */
+}
+.nav-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+.image-index {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+/* 整个设置面板的容器样式 - 暗色主题 */
+.setting {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* 使用深灰色作为背景 */
+  background-color: var(--bg-primary);
+  border-radius: 12px;
+  max-height: 500px;
+  overflow-y: auto;
+  /* 调整阴影，使其在深色背景下依然可见 */
+  box-shadow: var(--shadow-dark);
+  transition: box-shadow 0.3s ease;
+}
+/* 标题样式 - 暗色主题 */
+h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  /* 标题颜色调整为浅色，高对比度 */
+  color: var(--text-secondary);
+  margin-bottom: 5px;
+  /* 分割线颜色调整为更浅的灰色 */
+  border-bottom: 1px solid var(--border-color-dark);
+  padding-bottom: 10px;
+}
+/* 单个设置项的容器 - 暗色主题 */
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 48px;
+  gap: 15px;
+  padding: 10px 15px;
+  /* 背景色使用比容器背景稍浅的颜色 */
+  background-color: var(--bg-tertiary);
+  border-radius: 8px;
+  /* 边框颜色也调整为深色系 */
+  border: 1px solid var(--border-color-dark);
+  transition: all 0.3s ease;
+  font-size: 14px;
+  /* 字体颜色调整为浅色 */
+  color: var(--text-inactive);
+}
+.setting-item:hover {
+  /* 鼠标悬停时变色，但不要太刺眼 */
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color-medium);
+}
+/* 游戏路径设置中的路径文本 - 暗色主题 */
+.setting-item > span {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  /* 路径文本颜色调整 */
+  color: var(--text-disabled);
+}
+/* 按钮容器 */
+.center {
+  display: flex;
+  align-items: center;
+  // gap: 8px;
+}
+/* 编辑和删除按钮样式 - 暗色主题 */
+.game_edit {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 按钮背景色调整 */
+  background-color: var(--bg-primary);
+  /* 按钮边框颜色调整 */
+  border: 1px solid var(--border-color-medium);
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  /* 按钮图标颜色调整 */
+  color: var(--text-inactive);
+  /* 按钮阴影调整 */
+  box-shadow: var(--shadow-button);
+}
+.game_edit:hover {
+  /* 悬停时背景色变浅，但仍保持在深色系 */
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color-hover);
+  box-shadow: var(--shadow-button-hover);
+  transform: translateY(-1px);
+}
+.game_edit:active {
+  transform: translateY(0);
+  /* 按下时的阴影调整 */
+  box-shadow: var(--shadow-button-active);
+}

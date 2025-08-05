@@ -1,0 +1,731 @@
+/* 此css为基础框架 */
+/* 配色调整看dark.css */
+@charset "UTF-8";
+/* 使用root选择器 */
+:root {
+  /* 使用这个的区域有,背景 */
+  --bg-primary: #2c3340;
+  /* 使用这个的区域有 fragmets栏  角色卡片 mod卡片 setting选项 等背景*/
+  --bg-secondary: #323947;
+  /* 使用这个颜色的有 选中的角色卡片和mod卡片 背景 以及preview的背景*/
+  --bg-tertiary: #222630;
+  /* 使用这个颜色的有 主要字体颜色 和预览控制按钮背景 */
+  --text-white: white;
+  --text-disabled: #888;
+  --text-inactive: #c0c0c0;
+  --text-secondary: #e0e0e0;
+  --text-dark: #333;
+  /* 使用这个颜色的为 mod启用时 的提示点 */
+  --text-green: rgb(80, 173, 94);
+  /* 使用这个颜色的有setting的选项的边框 */
+  --border-color-dark: #444;
+  /* 使用这个颜色的有setting的选项的hover时的边框 和setting选项内部编辑按钮的边框 */
+  --border-color-medium: #555;
+  /* 使用这个颜色的仅有 预览图控制按钮的边框 */
+  --border-color-light: #ccc;
+  /* 使用这个颜色的有 filter 展开按钮 的边框,card 内装饰边框 和 mod 内装饰边框 */
+  --border-color-transparent: rgba(255, 255, 255, 0.183);
+  /* 使用这个颜色的有 编辑按钮hover时的边框 */
+  --border-color-hover: #666;
+  /*  */
+  --border-color-hover-subtle: rgba(255, 255, 255, 0.169);
+  /* 使用这个颜色的 为 fragment 碎片 的hover 和 选中 */
+  --hover-bg-dark: rgba(0, 0, 0, 0.217);
+  --hover-bg-light: #e0e0e0;
+  --active-highlight: rgba(220, 220, 220, 0.276);
+
+  --shadow-default: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-dark: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-button: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-button-hover: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-button-active: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+
+  /* 背景 */
+  --view-bg: var(--bg-primary);
+  --view-color: var(--text-white);
+  /* 侧边栏 */
+  --fragment-bg: var(--bg-secondary);
+  --selected-class-bg: var(--bg-tertiary);
+  --hover-class-bg: var(--bg-tertiary);
+
+  /* 搜索框背景 */
+  --search-filter-bg: var(--bg-tertiary);
+
+  /* preview 预览图的背景  */
+  --preview-bg: var(--bg-tertiary);
+
+  /* filter-icon 即 过滤器内部单个元素hover的颜色 */
+  --hover-filter-icon-bg: gray;
+  --selected-filter-icon-bg: gray;
+}
+
+.viewer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  background-color: var(--view-bg);
+  color: var(--view-color);
+  user-select: none;
+}
+
+.fragment {
+  padding: 10px;
+  height: 100%;
+  width: 150px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  transition: 0.5s;
+  background-color: var(--fragment-bg);
+}
+.fragment .fragment-item {
+  padding: 5px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.fragment .fragment-item img {
+  height: 30px;
+  width: 30px;
+}
+.fragment .fragment-item:hover {
+  background-color: var(--hover-class-bg);
+}
+
+.icon_fragment {
+  width: 60px;
+}
+.icon_fragment .fragment-item {
+  justify-content: center;
+}
+
+.selected_class {
+  background-color: var(--selected-class-bg);
+}
+
+.detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+}
+.detail .filter {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  overflow: visible;
+}
+.detail .filter .search-filter {
+  background-color: var(--search-filter-bg);
+  height: 25px;
+  color: var(--text-white);
+}
+.detail .filter .filter-logo {
+  border-radius: 15px;
+  transition: all 0.3s;
+  background-color: var(--bg-tertiary);
+  border: var(--bg-tertiary) 1px solid;
+  height: 30px;
+  width: 30px;
+}
+.detail .filter .filter-logo:hover {
+  background-color: var(--active-highlight);
+  border: 0.5px var(--border-color-transparent) solid;
+}
+.detail .filter .filter-logo.selected {
+  background-color: var(--active-highlight);
+}
+.detail .filter .filter-logo img {
+  height: 20px;
+  width: 20px;
+}
+.detail .filter .fc-box {
+  overflow: visible;
+  position: relative;
+  left: -6px;
+  top: 18px;
+  height: 1px;
+  width: 1px;
+}
+.detail .filter .filter-content {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  height: 0px;
+  width: 0px;
+  background-color: var(--bg-tertiary);
+  border-radius: 5px;
+  z-index: 1;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.detail .filter .filter-content .filter-item {
+  margin: 5px 5px 0px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.detail .filter .filter-content .filter-item .filter-icon {
+  transition: 0.3s;
+  padding: 5px;
+  height: 30px;
+  min-width: 30px;
+  border-radius: 15px;
+  border: 1px solid var(--bg-primary);
+  word-break: keep-all;
+}
+.detail .filter .filter-content .filter-item .filter-icon img {
+  height: 20px;
+  width: 20px;
+}
+.detail .filter .filter-content .filter-item .filter-icon:hover {
+  background-color: var(--hover-filter-icon-bg);
+}
+.detail .filter .filter-content .filter-item .filter-icon.selected {
+  background-color: var(--selected-filter-icon-bg);
+}
+.detail .filter .show-filter {
+  height: 150px;
+  width: 250px;
+}
+.detail .content {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  gap: 10px;
+  overflow: hidden;
+}
+.detail .content .relc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-height: 98%;
+  gap: 10px;
+  flex: 1;
+  align-items: start;
+  overflow: auto;
+}
+.detail .content .relc .card {
+  padding: 5px;
+  background-color: var(--bg-secondary);
+  border-radius: 10px 10px 25px 10px;
+  height: 120px;
+  width: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.detail .content .relc .card .card-border {
+  border: 1px solid var(--border-color-transparent);
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 25px 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.detail .content .relc .card .card-border img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+.detail .content .relc .selected {
+  background-color: var(--bg-tertiary);
+}
+.detail .content .relc .card:hover {
+  background-color: var(--bg-tertiary);
+}
+.detail .content .relm {
+  padding: 0px 10px 0px 0px;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  gap: 10px;
+}
+.detail .content .relm .modlist {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.detail .content .relm .modlist .mod-item {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: var(--bg-secondary);
+  width: 100%;
+  height: 60px;
+  transition: 0.2s;
+}
+.detail .content .relm .modlist .mod-item .mod-border {
+  display: flex;
+  border: 1px solid var(--border-color-transparent);
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 2px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.detail .content .relm .modlist .mod-item .mod-border .round {
+  height: 12px;
+  width: 12px;
+  border-radius: 10px;
+  background-color: var(--text-white);
+}
+.detail .content .relm .modlist .mod-item .mod-border .used {
+  background-color: var(--text-green);
+}
+.detail .content .relm .modlist .mod-item:hover {
+  background-color: var(--bg-tertiary);
+}
+.detail .content .relm .modlist .selected {
+  background-color: var(--bg-tertiary);
+}
+.detail .content .relm .preview {
+  display: flex;
+  flex-direction: column;
+  height: 98%;
+  flex: 1;
+}
+.detail .content .relm .divide-line {
+  height: 1px;
+  background-color: var(--bg-secondary);
+  width: 100%;
+}
+.detail .content .divide-line {
+  height: 98%;
+  background-color: var(--bg-secondary);
+  width: 1px;
+}
+.detail .content.list_view .relc {
+  width: 120px;
+  height: 98%;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  overflow-y: auto;
+  flex-wrap: nowrap;
+}
+.detail .content.list_view .relc .card {
+  padding: 5px;
+  border-radius: 10px 10px 25px 10px;
+  height: 60px;
+  width: 100%;
+  cursor: pointer;
+}
+.detail .content.list_view .relc .card .card-border {
+  border: 1px solid var(--border-color-transparent);
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 25px 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.detail .content.list_view .relc .card .card-border img {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+}
+.detail .content.list_view .relm {
+  flex: 3;
+  flex-direction: row;
+  height: 100%;
+}
+.detail .content.list_view .relm .modlist {
+  width: 120px;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.detail .content.list_view .relm .divide-line {
+  height: 98%;
+  background-color: var(--bg-secondary);
+  width: 1px;
+}
+.detail .content.list_view .relm .preview {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.card-menu {
+  width: 80px;
+  height: 100px;
+  background-color: var(--bg-tertiary);
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid rgba(221, 221, 221, 0.338);
+  display: flex;
+  color: var(--text-white);
+  flex-direction: column;
+  padding: 5px;
+  overflow: hidden;
+  user-select: none;
+  gap: 5px;
+}
+.card-menu div {
+  width: 100%;
+  flex-shrink: 0;
+  height: 20px;
+  border-radius: 5px;
+  background-color: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  word-break: keep-all;
+}
+.card-menu div:hover {
+  background-color: var(--bg-secondary);
+}
+
+.hidden {
+  display: block;
+  height: 0px;
+  width: 0px;
+  padding: 0px;
+  border: none;
+}
+
+.image-viewer-container {
+  padding: 15px;
+  /* 增加内边距 */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 12px;
+  /* 增加圆角 */
+  background-color: var(--preview-bg);
+  /* 浅灰色背景 */
+  box-shadow: var(--shadow-default);
+  /* 柔和的阴影 */
+}
+
+.image-viewer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  max-width: 100%;
+  max-height: calc(100% - 60px);
+  /* 预留底部控制区空间 */
+  margin-bottom: 15px;
+  /* 图片与控制区间的间距 */
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  /* 图片圆角 */
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  /* 图片切换动画 */
+}
+
+.no-images {
+  color: var(--text-disabled);
+  font-size: 14px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  /* 控制区固定高度 */
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+  /* 增加按钮和序列号的间距 */
+  align-items: center;
+}
+
+.nav-button {
+  background-color: var(--text-white);
+  color: var(--text-dark);
+  border: 1px solid var(--border-color-light);
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  /* 圆形按钮 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover:not(:disabled) {
+  background-color: var(--hover-bg-light);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  /* 悬停时轻微上浮 */
+}
+
+.nav-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.image-index {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+
+/* 整个设置面板的容器样式 - 暗色主题 */
+.setting {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* 使用深灰色作为背景 */
+  background-color: var(--bg-primary);
+  border-radius: 12px;
+  max-height: 500px;
+  overflow-y: auto;
+  /* 调整阴影，使其在深色背景下依然可见 */
+  box-shadow: var(--shadow-dark);
+  transition: box-shadow 0.3s ease;
+}
+
+/* 标题样式 - 暗色主题 */
+h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  /* 标题颜色调整为浅色，高对比度 */
+  color: var(--text-secondary);
+  margin-bottom: 5px;
+  /* 分割线颜色调整为更浅的灰色 */
+  border-bottom: 1px solid var(--border-color-dark);
+  padding-bottom: 10px;
+}
+
+/* 单个设置项的容器 - 暗色主题 */
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 48px;
+  gap: 15px;
+  padding: 10px 15px;
+  /* 背景色使用比容器背景稍浅的颜色 */
+  background-color: var(--bg-tertiary);
+  border-radius: 8px;
+  /* 边框颜色也调整为深色系 */
+  border: 1px solid var(--border-color-dark);
+  transition: all 0.3s ease;
+  font-size: 14px;
+  /* 字体颜色调整为浅色 */
+  color: var(--text-inactive);
+}
+
+.setting-item:hover {
+  /* 鼠标悬停时变色，但不要太刺眼 */
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color-medium);
+}
+
+/* 游戏路径设置中的路径文本 - 暗色主题 */
+.setting-item > span {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  /* 路径文本颜色调整 */
+  color: var(--text-disabled);
+}
+
+/* 按钮容器 */
+.center {
+  display: flex;
+  align-items: center;
+}
+
+/* 编辑和删除按钮样式 - 暗色主题 */
+.game_edit {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 按钮背景色调整 */
+  background-color: var(--bg-primary);
+  /* 按钮边框颜色调整 */
+  border: 1px solid var(--border-color-medium);
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  /* 按钮图标颜色调整 */
+  color: var(--text-inactive);
+  /* 按钮阴影调整 */
+  box-shadow: var(--shadow-button);
+}
+
+.game_edit:hover {
+  /* 悬停时背景色变浅，但仍保持在深色系 */
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color-hover);
+  box-shadow: var(--shadow-button-hover);
+  transform: translateY(-1px);
+}
+
+.game_edit:active {
+  transform: translateY(0);
+  /* 按下时的阴影调整 */
+  box-shadow: var(--shadow-button-active);
+}
+
+/*# sourceMappingURL=dark.css.map */
+
+.cz-dialog {
+  background: rgb(255, 93, 93);
+}
+
+.cz-dialog .dialog-item input {
+  background-color: #fff;
+}
+
+.cz-dialog .dialog-item input:focus {
+  background-color: #f3f3f3;
+}
+
+.cz-dialog .dialog-item label {
+  color: #555;
+}
+
+.cz-dialog .file-picker {
+  background-color: #e4e4e4;
+  border: 1px solid #ddd;
+}
+
+.cz-dialog .file-picker .file-name {
+  color: #7e7e7e;
+}
+
+/*  */
+/* @charset "UTF-8"; */
+/* 使用root选择器 */
+:root {
+  /* 使用这个的区域有,背景 */
+  --bg-primary: #2c3340;
+  /* 使用这个的区域有 fragmets栏  角色卡片 mod卡片 setting选项 等背景*/
+  --bg-secondary: #323947;
+  /* 使用这个颜色的有 选中的角色卡片和mod卡片 背景 以及preview的背景*/
+  --bg-tertiary: #222630;
+  /* 使用这个颜色的有 主要字体颜色 和预览控制按钮背景 */
+  --text-white: white;
+  --text-disabled: #888;
+  --text-inactive: #c0c0c0;
+  --text-secondary: #e0e0e0;
+  --text-dark: #333;
+  /* 使用这个颜色的为 mod启用时 的提示点 */
+  --text-green: rgb(80, 173, 94);
+  /* 使用这个颜色的有setting的选项的边框 */
+  --border-color-dark: #444;
+  /* 使用这个颜色的有setting的选项的hover时的边框 和setting选项内部编辑按钮的边框 */
+  --border-color-medium: #555;
+  /* 使用这个颜色的仅有 预览图控制按钮的边框 */
+  --border-color-light: #ccc;
+  /* 使用这个颜色的有 filter 展开按钮 的边框,card 内装饰边框 和 mod 内装饰边框 */
+  --border-color-transparent: rgba(255, 255, 255, 0.183);
+  /* 使用这个颜色的有 编辑按钮hover时的边框 */
+  --border-color-hover: #666;
+  /*  */
+  --border-color-hover-subtle: rgba(255, 255, 255, 0.169);
+  /* 使用这个颜色的 为 fragment 碎片 的hover 和 选中 */
+  --hover-bg-dark: rgba(0, 0, 0, 0.217);
+  --hover-bg-light: #e0e0e0;
+  --active-highlight: rgba(220, 220, 220, 0.276);
+
+  --shadow-default: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-dark: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-button: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-button-hover: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-button-active: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+
+  /* 背景 */
+  --view-bg: var(--bg-primary);
+  --view-color: var(--text-white);
+  /* 侧边栏 */
+  --fragment-bg: var(--bg-secondary);
+  --selected-class-bg: var(--bg-tertiary);
+  --hover-class-bg: var(--bg-tertiary);
+
+  /* 搜索框背景 */
+  --search-filter-bg: var(--bg-tertiary);
+
+  /* preview 预览图的背景  */
+  --preview-bg: var(--bg-tertiary);
+
+  /* filter-icon 即 过滤器内部单个元素hover的颜色 */
+  --hover-filter-icon-bg: gray;
+  --selected-filter-icon-bg: gray;
+}
+
+.cz-dialog {
+  background: white;
+}
+
+.cz-dialog .dialog-item input {
+  background-color: #fff;
+}
+
+.cz-dialog .dialog-item input:focus {
+  background-color: #f3f3f3;
+}
+
+.cz-dialog .dialog-item label {
+  color: #555;
+}
+
+.cz-dialog .file-picker {
+  background-color: #e4e4e4;
+  border: 1px solid #ddd;
+}
+
+.cz-dialog .file-picker .file-name {
+  color: #7e7e7e;
+}

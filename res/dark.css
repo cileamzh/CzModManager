@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* 使用root选择器 */
+:root {
+  /* 使用这个的区域有,背景 */
+  --bg-primary: #2c3340;
+  /* 使用这个的区域有 fragmets栏  角色卡片 mod卡片 setting选项 等背景*/
+  --bg-secondary: #323947;
+  /* 使用这个颜色的有 选中的角色卡片和mod卡片 背景 以及preview的背景*/
+  --bg-tertiary: #222630;
+  /* 使用这个颜色的有 主要字体颜色 和预览控制按钮背景 */
+  --text-white: white;
+  --text-disabled: #888;
+  --text-inactive: #c0c0c0;
+  --text-secondary: #e0e0e0;
+  --text-dark: #333;
+  /* 使用这个颜色的为 mod启用时 的提示点 */
+  --text-green: rgb(80, 173, 94);
+  /* 使用这个颜色的有setting的选项的边框 */
+  --border-color-dark: #444;
+  /* 使用这个颜色的有setting的选项的hover时的边框 和setting选项内部编辑按钮的边框 */
+  --border-color-medium: #555;
+  /* 使用这个颜色的仅有 预览图控制按钮的边框 */
+  --border-color-light: #ccc;
+  /* 使用这个颜色的有 filter 展开按钮 的边框,card 内装饰边框 和 mod 内装饰边框 */
+  --border-color-transparent: rgba(255, 255, 255, 0.183);
+  /* 使用这个颜色的有 编辑按钮hover时的边框 */
+  --border-color-hover: #666;
+  /*  */
+  --border-color-hover-subtle: rgba(255, 255, 255, 0.169);
+  /* 使用这个颜色的 为 fragment 碎片 的hover 和 选中 */
+  --hover-bg-dark: rgba(0, 0, 0, 0.217);
+  --hover-bg-light: #e0e0e0;
+  --active-highlight: rgba(220, 220, 220, 0.276);
+
+  --shadow-default: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-dark: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-button: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-button-hover: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-button-active: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+
+  /* 背景 */
+  --view-bg: var(--bg-primary);
+  --view-color: var(--text-white);
+  /* 侧边栏 */
+  --fragment-bg: var(--bg-secondary);
+  --selected-class-bg: var(--bg-tertiary);
+  --hover-class-bg: var(--bg-tertiary);
+
+  /* 搜索框背景 */
+  --search-filter-bg: var(--bg-tertiary);
+
+  /* preview 预览图的背景  */
+  --preview-bg: var(--bg-tertiary);
+
+  /* filter-icon 即 过滤器内部单个元素hover的颜色 */
+  --hover-filter-icon-bg: gray;
+  --selected-filter-icon-bg: gray;
+
+  --top-border: rgb(222, 222, 222);
+}
+
+/*  弹窗组件样式 */
+.cz-dialog {
+  background: #282c34;
+  color: #dcdcdc;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.cz-dialog .dialog-item {
+  height: 45px;
+}
+
+.cz-dialog .dialog-item input {
+  background-color: #3e4451;
+  border: 1px solid #555;
+  color: #dcdcdc;
+}
+
+.cz-dialog .dialog-item input:focus {
+  background-color: #4b5263;
+  border-color: #61afef;
+}
+
+.cz-dialog .dialog-item label {
+  color: #dcdcdc;
+}
+
+.cz-dialog .file-picker {
+  background-color: #3e4451;
+  border: 1px solid #555;
+}
+
+.cz-dialog .file-picker .file-name {
+  color: #dcdcdc;
+  font-size: 14px;
+}

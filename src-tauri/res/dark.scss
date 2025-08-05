@@ -1,0 +1,610 @@
+.viewer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  background-color: #2c3340;
+  color: white;
+  user-select: none;
+}
+
+.fragment {
+  padding: 10px;
+  height: 100%;
+  width: 150px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  transition: 0.5s;
+  background-color: #323947;
+
+  .fragment-item {
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    transition: 0.3s;
+    border-radius: 20px;
+
+    img {
+      height: 30px;
+      width: 30px;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.217);
+    }
+  }
+}
+
+.icon_fragment {
+  width: 60px;
+
+  .fragment-item {
+    justify-content: center;
+  }
+}
+
+.selected_class {
+  background-color: rgba(0, 0, 0, 0.217);
+}
+
+.detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+
+  .filter {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+
+    overflow: visible;
+
+    .search-filter {
+      background-color: #222630;
+      height: 25px;
+      color: white;
+    }
+
+    .filter-logo {
+      border-radius: 15px;
+      transition: all 0.3s;
+      background-color: #222630;
+      border: #222630 1px solid;
+      height: 30px;
+      width: 30px;
+
+      &:hover {
+        background-color: rgba(220, 220, 220, 0.276);
+        border: 0.5px rgba(255, 255, 255, 0.169) solid;
+      }
+
+      &.selected {
+        background-color: rgba(220, 220, 220, 0.276);
+      }
+
+      img {
+        height: 20px;
+        width: 20px;
+      }
+    }
+
+    .fc-box {
+      overflow: visible;
+      position: relative;
+      left: -6px;
+      top: 18px;
+      height: 1px;
+      width: 1px;
+    }
+
+    .filter-content {
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      height: 0px;
+      width: 0px;
+      background-color: #222630;
+      border-radius: 5px;
+      z-index: 1;
+      transition: all 0.5s;
+      overflow: hidden;
+
+      .filter-item {
+        // width: 100%;
+        margin: 5px 5px 0px 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+
+        .filter-icon {
+          transition: 0.3s;
+          padding: 5px;
+          height: 30px;
+          min-width: 30px;
+          border-radius: 15px;
+          // flex-shrink: 0;
+          border: 1px solid #2c3340;
+          word-break: keep-all;
+
+          img {
+            height: 20px;
+            width: 20px;
+          }
+
+          &:hover {
+            background-color: gray;
+          }
+
+          &.selected {
+            background-color: rgba(220, 220, 220, 0.276);
+          }
+        }
+      }
+    }
+
+    .show-filter {
+      height: 150px;
+      width: 250px;
+    }
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    gap: 10px;
+    overflow: hidden;
+
+    .relc {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      max-height: 98%;
+      gap: 10px;
+      flex: 1;
+      align-items: start;
+      overflow: auto;
+
+      .card {
+        padding: 5px;
+        background-color: #323947;
+        border-radius: 10px 10px 25px 10px;
+        height: 120px;
+        width: 100px;
+        cursor: pointer;
+        transition: 0.3s;
+
+        .card-border {
+          border: 1px solid rgba(255, 255, 255, 0.183);
+          padding: 5px;
+          height: 100%;
+          width: 100%;
+          border-radius: 10px 10px 25px 10px;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+          align-items: center;
+
+          img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+          }
+        }
+      }
+
+      .selected {
+        background-color: #222630;
+      }
+
+      .card:hover {
+        background-color: #222630;
+      }
+    }
+
+    .relm {
+      padding: 0px 10px 0px 0px;
+      height: 98%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+      gap: 10px;
+
+      .modlist {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+
+        .mod-item {
+          padding: 5px;
+          border-radius: 10px;
+          background-color: #323947;
+          width: 100%;
+          height: 60px;
+          transition: 0.2s;
+
+          .mod-border {
+            display: flex;
+            border: 1px solid rgba(255, 255, 255, 0.183);
+            border-radius: 10px;
+            height: 100%;
+            width: 100%;
+            padding: 2px 10px;
+            align-items: center;
+            justify-content: space-between;
+
+            .round {
+              height: 12px;
+              width: 12px;
+              border-radius: 10px;
+              background-color: white;
+            }
+
+            .used {
+              background-color: rgb(80, 173, 94);
+            }
+          }
+
+          &:hover {
+            background-color: #222630;
+          }
+        }
+
+        .selected {
+          background-color: #222630;
+        }
+      }
+
+      .preview {
+        display: flex;
+        flex-direction: column;
+        height: 98%;
+        flex: 1;
+      }
+
+      .divide-line {
+        height: 1px;
+        background-color: #323947;
+        width: 100%;
+      }
+    }
+
+    .divide-line {
+      height: 98%;
+      background-color: #323947;
+      width: 1px;
+    }
+  }
+
+  .content.list_view {
+    .relc {
+      width: 120px;
+      height: 98%;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      overflow-y: auto;
+      flex-wrap: nowrap;
+
+      .card {
+        padding: 5px;
+        border-radius: 10px 10px 25px 10px;
+        height: 60px;
+        width: 100%;
+        cursor: pointer;
+
+        .card-border {
+          border: 1px solid rgba(255, 255, 255, 0.183);
+          padding: 5px;
+          height: 100%;
+          width: 100%;
+          border-radius: 10px 10px 25px 10px;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          align-items: center;
+
+          img {
+            height: 25px;
+            width: 25px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+
+    .relm {
+      flex: 3;
+      flex-direction: row;
+      height: 100%;
+
+      .modlist {
+        width: 120px;
+        height: 98%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 1;
+      }
+
+      .divide-line {
+        height: 98%;
+        background-color: #323947;
+        width: 1px;
+      }
+
+      .preview {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+      }
+    }
+  }
+}
+
+.card-menu {
+  width: 80px;
+  height: 100px;
+  background-color: #222630;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid rgba(221, 221, 221, 0.338);
+  display: flex;
+  color: white;
+  flex-direction: column;
+  padding: 5px;
+  overflow: hidden;
+  user-select: none;
+  gap: 5px;
+
+  div {
+    width: 100%;
+    flex-shrink: 0;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #2c3340;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    word-break: keep-all;
+
+    &:hover {
+      background-color: #323947;
+    }
+  }
+}
+
+.hidden {
+  display: block;
+  height: 0px;
+  width: 0px;
+  padding: 0px;
+  border: none;
+}
+
+.image-viewer-container {
+  padding: 15px;
+  /* 增加内边距 */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 12px;
+  /* 增加圆角 */
+  background-color: #222630;
+  /* 浅灰色背景 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* 柔和的阴影 */
+}
+
+.image-viewer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  max-width: 100%;
+  max-height: calc(100% - 60px);
+  /* 预留底部控制区空间 */
+  margin-bottom: 15px;
+  /* 图片与控制区间的间距 */
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  /* 图片圆角 */
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  /* 图片切换动画 */
+}
+
+.no-images {
+  color: #888;
+  font-size: 14px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  /* 控制区固定高度 */
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+  /* 增加按钮和序列号的间距 */
+  align-items: center;
+}
+
+.nav-button {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  /* 圆形按钮 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover:not(:disabled) {
+  background-color: #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  /* 悬停时轻微上浮 */
+}
+
+.nav-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.image-index {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+
+/* 整个设置面板的容器样式 - 暗色主题 */
+.setting {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* 使用深灰色作为背景 */
+  background-color: #2c3340;
+  border-radius: 12px;
+  max-height: 500px;
+  overflow-y: auto;
+  /* 调整阴影，使其在深色背景下依然可见 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+/* 标题样式 - 暗色主题 */
+h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  /* 标题颜色调整为浅色，高对比度 */
+  color: #e0e0e0;
+  margin-bottom: 5px;
+  /* 分割线颜色调整为更浅的灰色 */
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+}
+
+/* 单个设置项的容器 - 暗色主题 */
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 48px;
+  gap: 15px;
+  padding: 10px 15px;
+  /* 背景色使用比容器背景稍浅的颜色 */
+  background-color: #222630;
+  border-radius: 8px;
+  /* 边框颜色也调整为深色系 */
+  border: 1px solid #444;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  /* 字体颜色调整为浅色 */
+  color: #c0c0c0;
+}
+
+.setting-item:hover {
+  /* 鼠标悬停时变色，但不要太刺眼 */
+  background-color: #323947;
+  border-color: #555;
+}
+
+/* 游戏路径设置中的路径文本 - 暗色主题 */
+.setting-item > span {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  /* 路径文本颜色调整 */
+  color: #a0a0a0;
+}
+
+/* 按钮容器 */
+.center {
+  display: flex;
+  align-items: center;
+  // gap: 8px;
+}
+
+/* 编辑和删除按钮样式 - 暗色主题 */
+.game_edit {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 按钮背景色调整 */
+  background-color: #2c3340;
+  /* 按钮边框颜色调整 */
+  border: 1px solid #555;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  /* 按钮图标颜色调整 */
+  color: #c0c0c0;
+  /* 按钮阴影调整 */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.game_edit:hover {
+  /* 悬停时背景色变浅，但仍保持在深色系 */
+  background-color: #323947;
+  border-color: #666;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+.game_edit:active {
+  transform: translateY(0);
+  /* 按下时的阴影调整 */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+}

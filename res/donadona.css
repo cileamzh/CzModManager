@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*
+ * 多娜多娜风格主题（Dohnadohna Style Theme）
+ * 基于赛博朋克和霓虹灯光的配色
+ */
+:root {
+  /* 主要背景：深沉的、带点蓝色的暗色，如同夜幕下的城市 */
+  --bg-primary: #1a1a2e;
+  /* 次要背景：比主背景略浅，用于侧边栏、卡片背景等，营造层次感 */
+  --bg-secondary: #242c40;
+  /* 三级背景：用于选中卡片、预览区背景，颜色更深，突出显示 */
+  --bg-tertiary: #161a29;
+
+  /* 主要字体颜色：高亮、清晰的霓虹色，而非纯白色 */
+  --text-white: #e84393; /* 霓虹粉 */
+  /* 辅助字体颜色：用于次要信息，保持高对比度 */
+  --text-secondary: #a4b0be;
+  /* 禁用或不活跃的字体颜色：暗淡的浅灰色 */
+  --text-disabled: #535c68;
+  /* 非活跃字体颜色：比禁用色稍亮 */
+  --text-inactive: #747d8c;
+  /* 深色字体：用于白色背景下的深色文字，保持不变 */
+  --text-dark: #333;
+  /* 启用提示点颜色：明亮的霓虹绿，突出“激活”状态 */
+  --text-green: #2ecc71; 
+
+  /* 边框颜色：使用深色或半透明的霓虹色边框，增加细节 */
+  --border-color-dark: #353b48;
+  --border-color-medium: #485460;
+  --border-color-light: #576574;
+  --border-color-transparent: rgba(232, 67, 147, 0.2); /* 半透明霓虹粉边框 */
+  --border-color-hover: #e84393; /* 悬停时边框变为霓虹粉 */
+  --border-color-hover-subtle: rgba(232, 67, 147, 0.3);
+
+  /* 悬停和选中背景：使用半透明的霓虹色高亮 */
+  --hover-bg-dark: rgba(232, 67, 147, 0.1);
+  --hover-bg-light: #485460;
+  --active-highlight: rgba(232, 67, 147, 0.2); /* 选中时的更强高亮 */
+
+  /* 阴影：深色主题下，阴影颜色应更深 */
+  --shadow-default: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-dark: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-button: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-button-hover: 0 2px 4px rgba(0, 0, 0, 0.5);
+  --shadow-button-active: inset 0 1px 2px rgba(0, 0, 0, 0.7);
+
+  /* 背景和颜色 */
+  --view-bg: var(--bg-primary);
+  --view-color: var(--text-secondary);
+  --fragment-bg: var(--bg-secondary);
+  --selected-class-bg: var(--bg-tertiary);
+  --hover-class-bg: var(--bg-tertiary);
+  --search-filter-bg: var(--bg-tertiary);
+  --preview-bg: var(--bg-tertiary);
+
+  /* 过滤器图标 */
+  --hover-filter-icon-bg: rgba(232, 67, 147, 0.2);
+  --selected-filter-icon-bg: rgba(232, 67, 147, 0.4);
+}
+

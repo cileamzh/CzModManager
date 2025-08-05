@@ -1,0 +1,1029 @@
+{
+  "zh": {
+    "characters": [
+      {
+        "name": "柚叶",
+        "element": "物理",
+        "star": 5,
+        "label": "柚叶",
+        "icon": "柚叶.png"
+      },
+      {
+        "name": "橘福福",
+        "element": "火",
+        "star": 5,
+        "label": "橘福福",
+        "icon": "橘福福.png"
+      },
+      {
+        "name": "仪玄",
+        "element": "以太",
+        "star": 5,
+        "label": "仪玄",
+        "icon": "仪玄.png"
+      },
+      {
+        "name": "雨果",
+        "element": "冰",
+        "star": 5,
+        "label": "雨果",
+        "icon": "雨果.png"
+      },
+      {
+        "name": "薇薇安",
+        "element": "以太",
+        "star": 5,
+        "label": "薇薇安",
+        "icon": "薇薇安.png"
+      },
+      {
+        "name": "「扳机」",
+        "element": "电",
+        "star": 5,
+        "label": "「扳机」",
+        "icon": "「扳机」.png"
+      },
+      {
+        "name": "零号·安比",
+        "element": "电",
+        "star": 5,
+        "label": "零号·安比",
+        "icon": "零号·安比.png"
+      },
+      {
+        "name": "伊芙琳",
+        "element": "火",
+        "star": 5,
+        "label": "伊芙琳",
+        "icon": "伊芙琳.png"
+      },
+      {
+        "name": "耀嘉音",
+        "element": "以太",
+        "star": 5,
+        "label": "耀嘉音",
+        "icon": "耀嘉音.png"
+      },
+      {
+        "name": "悠真",
+        "element": "电",
+        "star": 5,
+        "label": "悠真",
+        "icon": "悠真.png"
+      },
+      {
+        "name": "雅",
+        "element": "冰",
+        "star": 5,
+        "label": "雅",
+        "icon": "雅.png"
+      },
+      {
+        "name": "莱特",
+        "element": "火",
+        "star": 5,
+        "label": "莱特",
+        "icon": "莱特.png"
+      },
+      {
+        "name": "柳",
+        "element": "电",
+        "star": 5,
+        "label": "柳",
+        "icon": "柳.png"
+      },
+      {
+        "name": "柏妮思",
+        "element": "火",
+        "star": 5,
+        "label": "柏妮思",
+        "icon": "柏妮思.png"
+      },
+      {
+        "name": "凯撒",
+        "element": "物理",
+        "star": 5,
+        "label": "凯撒",
+        "icon": "凯撒.png"
+      },
+      {
+        "name": "简",
+        "element": "物理",
+        "star": 5,
+        "label": "简",
+        "icon": "简.png"
+      },
+      {
+        "name": "青衣",
+        "element": "电",
+        "star": 5,
+        "label": "青衣",
+        "icon": "青衣.png"
+      },
+      {
+        "name": "朱鸢",
+        "element": "以太",
+        "star": 5,
+        "label": "朱鸢",
+        "icon": "朱鸢.png"
+      },
+      {
+        "name": "「11号」",
+        "element": "火",
+        "star": 5,
+        "label": "「11号」",
+        "icon": "「11号」.png"
+      },
+      {
+        "name": "莱卡恩",
+        "element": "冰",
+        "star": 5,
+        "label": "莱卡恩",
+        "icon": "莱卡恩.png"
+      },
+      {
+        "name": "丽娜",
+        "element": "电",
+        "star": 5,
+        "label": "丽娜",
+        "icon": "丽娜.png"
+      },
+      {
+        "name": "艾莲",
+        "element": "冰",
+        "star": 5,
+        "label": "艾莲",
+        "icon": "艾莲.png"
+      },
+      {
+        "name": "格莉丝",
+        "element": "电",
+        "star": 5,
+        "label": "格莉丝",
+        "icon": "格莉丝.png"
+      },
+      {
+        "name": "珂蕾妲",
+        "element": "火",
+        "star": 5,
+        "label": "珂蕾妲",
+        "icon": "珂蕾妲.png"
+      },
+      {
+        "name": "猫又",
+        "element": "物理",
+        "star": 5,
+        "label": "猫又",
+        "icon": "猫又.png"
+      },
+      {
+        "name": "潘引壶",
+        "element": "物理",
+        "star": 4,
+        "label": "潘引壶",
+        "icon": "潘引壶.png"
+      },
+      {
+        "name": "波可娜",
+        "element": "物理",
+        "star": 4,
+        "label": "波可娜",
+        "icon": "波可娜.png"
+      },
+      {
+        "name": "赛斯",
+        "element": "电",
+        "star": 4,
+        "label": "赛斯",
+        "icon": "赛斯.png"
+      },
+      {
+        "name": "可琳",
+        "element": "物理",
+        "star": 4,
+        "label": "可琳",
+        "icon": "可琳.png"
+      },
+      {
+        "name": "本",
+        "element": "火",
+        "star": 4,
+        "label": "本",
+        "icon": "本.png"
+      },
+      {
+        "name": "安东",
+        "element": "电",
+        "star": 4,
+        "label": "安东",
+        "icon": "安东.png"
+      },
+      {
+        "name": "安比",
+        "element": "电",
+        "star": 4,
+        "label": "安比",
+        "icon": "安比.png"
+      },
+      {
+        "name": "妮可",
+        "element": "以太",
+        "star": 4,
+        "label": "妮可",
+        "icon": "妮可.png"
+      },
+      {
+        "name": "比利",
+        "element": "物理",
+        "star": 4,
+        "label": "比利",
+        "icon": "比利.png"
+      },
+      {
+        "name": "苍角",
+        "element": "冰",
+        "star": 4,
+        "label": "苍角",
+        "icon": "苍角.png"
+      },
+      {
+        "name": "派派",
+        "element": "物理",
+        "star": 4,
+        "label": "派派",
+        "icon": "派派.png"
+      },
+      {
+        "name": "露西",
+        "element": "火",
+        "star": 4,
+        "label": "露西",
+        "icon": "露西.png"
+      }
+    ],
+    "weapons": [
+      {
+        "name": "拘缚者",
+        "kind": "击破",
+        "star": 5,
+        "label": "拘缚者",
+        "icon": "拘缚者.png"
+      },
+      {
+        "name": "燃狱齿轮",
+        "kind": "击破",
+        "star": 5,
+        "label": "燃狱齿轮",
+        "icon": "燃狱齿轮.png"
+      },
+      {
+        "name": "玉壶青冰",
+        "kind": "击破",
+        "star": 5,
+        "label": "玉壶青冰",
+        "icon": "玉壶青冰.png"
+      },
+      {
+        "name": "焰心桂冠",
+        "kind": "击破",
+        "star": 5,
+        "label": "焰心桂冠",
+        "icon": "焰心桂冠.png"
+      },
+      {
+        "name": "索魂影眸",
+        "kind": "击破",
+        "star": 5,
+        "label": "索魂影眸",
+        "icon": "索魂影眸.png"
+      },
+      {
+        "name": "福虓炉炉",
+        "kind": "击破",
+        "star": 5,
+        "label": "福虓炉炉",
+        "icon": "福虓炉炉.png"
+      },
+      {
+        "name": "青溟笼舍",
+        "kind": "命破",
+        "star": 5,
+        "label": "青溟笼舍",
+        "icon": "青溟笼舍.png"
+      },
+      {
+        "name": "嵌合编译器",
+        "kind": "异常",
+        "star": 5,
+        "label": "嵌合编译器",
+        "icon": "嵌合编译器.png"
+      },
+      {
+        "name": "淬锋钳刺",
+        "kind": "异常",
+        "star": 5,
+        "label": "淬锋钳刺",
+        "icon": "淬锋钳刺.png"
+      },
+      {
+        "name": "灼心摇壶",
+        "kind": "异常",
+        "star": 5,
+        "label": "灼心摇壶",
+        "icon": "灼心摇壶.png"
+      },
+      {
+        "name": "时流贤者",
+        "kind": "异常",
+        "star": 5,
+        "label": "时流贤者",
+        "icon": "时流贤者.png"
+      },
+      {
+        "name": "霰落星殿",
+        "kind": "异常",
+        "star": 5,
+        "label": "霰落星殿",
+        "icon": "霰落星殿.png"
+      },
+      {
+        "name": "飞鸟星梦",
+        "kind": "异常",
+        "star": 5,
+        "label": "飞鸟星梦",
+        "icon": "飞鸟星梦.png"
+      },
+      {
+        "name": "十方锻星",
+        "kind": "异常",
+        "star": 5,
+        "label": "十方锻星",
+        "icon": "十方锻星.png"
+      },
+      {
+        "name": "钢铁肉垫",
+        "kind": "强攻",
+        "star": 5,
+        "label": "钢铁肉垫",
+        "icon": "钢铁肉垫.png"
+      },
+      {
+        "name": "硫磺石",
+        "kind": "强攻",
+        "star": 5,
+        "label": "硫磺石",
+        "icon": "硫磺石.png"
+      },
+      {
+        "name": "深海访客",
+        "kind": "强攻",
+        "star": 5,
+        "label": "深海访客",
+        "icon": "深海访客.png"
+      },
+      {
+        "name": "防暴者Ⅵ型",
+        "kind": "强攻",
+        "star": 5,
+        "label": "防暴者Ⅵ型",
+        "icon": "防暴者Ⅵ型.png"
+      },
+      {
+        "name": "残心青囊",
+        "kind": "强攻",
+        "star": 5,
+        "label": "残心青囊",
+        "icon": "残心青囊.png"
+      },
+      {
+        "name": "心弦夜响",
+        "kind": "强攻",
+        "star": 5,
+        "label": "心弦夜响",
+        "icon": "心弦夜响.png"
+      },
+      {
+        "name": "牺牲洁纯",
+        "kind": "强攻",
+        "star": 5,
+        "label": "牺牲洁纯",
+        "icon": "牺牲洁纯.png"
+      },
+      {
+        "name": "千面日陨",
+        "kind": "强攻",
+        "star": 5,
+        "label": "千面日陨",
+        "icon": "千面日陨.png"
+      },
+      {
+        "name": "啜泣摇篮",
+        "kind": "支援",
+        "star": 5,
+        "label": "啜泣摇篮",
+        "icon": "啜泣摇篮.png"
+      },
+      {
+        "name": "玲珑妆匣",
+        "kind": "支援",
+        "star": 5,
+        "label": "玲珑妆匣",
+        "icon": "玲珑妆匣.png"
+      },
+      {
+        "name": "狸法七变化",
+        "kind": "支援",
+        "star": 5,
+        "label": "狸法七变化",
+        "icon": "狸法七变化.png"
+      },
+      {
+        "name": "奔袭獠牙",
+        "kind": "防护",
+        "star": 5,
+        "label": "奔袭獠牙",
+        "icon": "奔袭獠牙.png"
+      },
+      {
+        "name": "德玛拉电池Ⅱ型",
+        "kind": "击破",
+        "star": 4,
+        "label": "德玛拉电池Ⅱ型",
+        "icon": "德玛拉电池Ⅱ型.png"
+      },
+      {
+        "name": "左轮转子",
+        "kind": "击破",
+        "star": 4,
+        "label": "左轮转子",
+        "icon": "左轮转子.png"
+      },
+      {
+        "name": "贵重骨核",
+        "kind": "击破",
+        "star": 4,
+        "label": "贵重骨核",
+        "icon": "贵重骨核.png"
+      },
+      {
+        "name": "人为刀俎",
+        "kind": "击破",
+        "star": 4,
+        "label": "人为刀俎",
+        "icon": "人为刀俎.png"
+      },
+      {
+        "name": "裁纸刀",
+        "kind": "击破",
+        "star": 4,
+        "label": "裁纸刀",
+        "icon": "裁纸刀.png"
+      },
+      {
+        "name": "幻变魔方",
+        "kind": "命破",
+        "star": 4,
+        "label": "幻变魔方",
+        "icon": "幻变魔方.png"
+      },
+      {
+        "name": "电波漫步",
+        "kind": "命破",
+        "star": 4,
+        "label": "电波漫步",
+        "icon": "电波漫步.png"
+      },
+      {
+        "name": "触电唇彩",
+        "kind": "异常",
+        "star": 4,
+        "label": "触电唇彩",
+        "icon": "触电唇彩.png"
+      },
+      {
+        "name": "轰鸣座驾",
+        "kind": "异常",
+        "star": 4,
+        "label": "轰鸣座驾",
+        "icon": "轰鸣座驾.png"
+      },
+      {
+        "name": "双生泣星",
+        "kind": "异常",
+        "star": 4,
+        "label": "双生泣星",
+        "icon": "双生泣星.png"
+      },
+      {
+        "name": "雨林饕客",
+        "kind": "异常",
+        "star": 4,
+        "label": "雨林饕客",
+        "icon": "雨林饕客.png"
+      },
+      {
+        "name": "家政员",
+        "kind": "强攻",
+        "star": 4,
+        "label": "家政员",
+        "icon": "家政员.png"
+      },
+      {
+        "name": "仿制星徽引擎",
+        "kind": "强攻",
+        "star": 4,
+        "label": "仿制星徽引擎",
+        "icon": "仿制星徽引擎.png"
+      },
+      {
+        "name": "加农转子",
+        "kind": "强攻",
+        "star": 4,
+        "label": "加农转子",
+        "icon": "加农转子.png"
+      },
+      {
+        "name": "旋钻机-赤轴",
+        "kind": "强攻",
+        "star": 4,
+        "label": "旋钻机-赤轴",
+        "icon": "旋钻机-赤轴.png"
+      },
+      {
+        "name": "星徽引擎",
+        "kind": "强攻",
+        "star": 4,
+        "label": "星徽引擎",
+        "icon": "星徽引擎.png"
+      },
+      {
+        "name": "街头巨星",
+        "kind": "强攻",
+        "star": 4,
+        "label": "街头巨星",
+        "icon": "街头巨星.png"
+      },
+      {
+        "name": "鎏金花信",
+        "kind": "强攻",
+        "star": 4,
+        "label": "鎏金花信",
+        "icon": "鎏金花信.png"
+      },
+      {
+        "name": "强音热望",
+        "kind": "强攻",
+        "star": 4,
+        "label": "强音热望",
+        "icon": "强音热望.png"
+      },
+      {
+        "name": "聚宝箱",
+        "kind": "支援",
+        "star": 4,
+        "label": "聚宝箱",
+        "icon": "聚宝箱.png"
+      },
+      {
+        "name": "含羞恶面",
+        "kind": "支援",
+        "star": 4,
+        "label": "含羞恶面",
+        "icon": "含羞恶面.png"
+      },
+      {
+        "name": "逍遥游球",
+        "kind": "支援",
+        "star": 4,
+        "label": "逍遥游球",
+        "icon": "逍遥游球.png"
+      },
+      {
+        "name": "好斗的阿炮",
+        "kind": "支援",
+        "star": 4,
+        "label": "好斗的阿炮",
+        "icon": "好斗的阿炮.png"
+      },
+      {
+        "name": "时光切片",
+        "kind": "支援",
+        "star": 4,
+        "label": "时光切片",
+        "icon": "时光切片.png"
+      },
+      {
+        "name": "兔能环",
+        "kind": "防护",
+        "star": 4,
+        "label": "兔能环",
+        "icon": "兔能环.png"
+      },
+      {
+        "name": "春日融融",
+        "kind": "防护",
+        "star": 4,
+        "label": "春日融融",
+        "icon": "春日融融.png"
+      },
+      {
+        "name": "比格气缸",
+        "kind": "防护",
+        "star": 4,
+        "label": "比格气缸",
+        "icon": "比格气缸.png"
+      },
+      {
+        "name": "正版变身器",
+        "kind": "防护",
+        "star": 4,
+        "label": "正版变身器",
+        "icon": "正版变身器.png"
+      },
+      {
+        "name": "维序者-特化型",
+        "kind": "防护",
+        "star": 4,
+        "label": "维序者-特化型",
+        "icon": "维序者-特化型.png"
+      },
+      {
+        "name": "光影刻刀",
+        "kind": "防护",
+        "star": 4,
+        "label": "光影刻刀",
+        "icon": "光影刻刀.png"
+      },
+      {
+        "name": "震元奇枢",
+        "kind": "防护",
+        "star": 4,
+        "label": "震元奇枢",
+        "icon": "震元奇枢.png"
+      },
+      {
+        "name": "「湍流」-铳型",
+        "kind": "击破",
+        "star": 4,
+        "label": "「湍流」-铳型",
+        "icon": "「湍流」-铳型.png"
+      },
+      {
+        "name": "「湍流」-矢型",
+        "kind": "击破",
+        "star": 4,
+        "label": "「湍流」-矢型",
+        "icon": "「湍流」-矢型.png"
+      },
+      {
+        "name": "「湍流」-斧型",
+        "kind": "击破",
+        "star": 4,
+        "label": "「湍流」-斧型",
+        "icon": "「湍流」-斧型.png"
+      },
+      {
+        "name": "「灰烬」-钴蓝",
+        "kind": "命破",
+        "star": 4,
+        "label": "「灰烬」-钴蓝",
+        "icon": "「灰烬」-钴蓝.png"
+      },
+      {
+        "name": "「电磁暴」-壹式",
+        "kind": "异常",
+        "star": 4,
+        "label": "「电磁暴」-壹式",
+        "icon": "「电磁暴」-壹式.png"
+      },
+      {
+        "name": "「电磁暴」-贰式",
+        "kind": "异常",
+        "star": 4,
+        "label": "「电磁暴」-贰式",
+        "icon": "「电磁暴」-贰式.png"
+      },
+      {
+        "name": "「电磁暴」-叁式",
+        "kind": "异常",
+        "star": 4,
+        "label": "「电磁暴」-叁式",
+        "icon": "「电磁暴」-叁式.png"
+      },
+      {
+        "name": "「月相」-晦",
+        "kind": "强攻",
+        "star": 4,
+        "label": "「月相」-晦",
+        "icon": "「月相」-晦.png"
+      },
+      {
+        "name": "「月相」-望",
+        "kind": "强攻",
+        "star": 4,
+        "label": "「月相」-望",
+        "icon": "「月相」-望.png"
+      },
+      {
+        "name": "「月相」-朔",
+        "kind": "强攻",
+        "star": 4,
+        "label": "「月相」-朔",
+        "icon": "「月相」-朔.png"
+      },
+      {
+        "name": "「残响」-Ⅰ型",
+        "kind": "支援",
+        "star": 4,
+        "label": "「残响」-Ⅰ型",
+        "icon": "「残响」-Ⅰ型.png"
+      },
+      {
+        "name": "「残响」-Ⅱ型",
+        "kind": "支援",
+        "star": 4,
+        "label": "「残响」-Ⅱ型",
+        "icon": "「残响」-Ⅱ型.png"
+      },
+      {
+        "name": "「残响」-Ⅲ型",
+        "kind": "支援",
+        "star": 4,
+        "label": "「残响」-Ⅲ型",
+        "icon": "「残响」-Ⅲ型.png"
+      },
+      {
+        "name": "「恒等式」-本格",
+        "kind": "防护",
+        "star": 4,
+        "label": "「恒等式」-本格",
+        "icon": "「恒等式」-本格.png"
+      },
+      {
+        "name": "「恒等式」-变格",
+        "kind": "防护",
+        "star": 4,
+        "label": "「恒等式」-变格",
+        "icon": "「恒等式」-变格.png"
+      }
+    ],
+    "npcs": [],
+    "ui": [],
+    "context": [],
+    "others": []
+  },
+  "en": {
+    "characters": [
+      {
+        "name": "No.11",
+        "icon": "11号.png",
+        "star": 5,
+        "element": "Ethereal",
+        "label": "11号"
+      },
+      {
+        "name": "Lina",
+        "icon": "丽娜.png",
+        "star": 5,
+        "element": "Electric",
+        "label": "丽娜"
+      },
+      {
+        "name": "Yixuan",
+        "icon": "仪玄.png",
+        "star": 5,
+        "element": "Ice",
+        "label": "仪玄"
+      },
+      {
+        "name": "Evelyn",
+        "icon": "伊芙琳.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "伊芙琳"
+      },
+      {
+        "name": "Caesar",
+        "icon": "凯撒.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "凯撒"
+      },
+      {
+        "name": "Corin",
+        "icon": "可琳.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "可琳"
+      },
+      {
+        "name": "Nicole",
+        "icon": "妮可.png",
+        "star": 5,
+        "element": "Ethereal",
+        "label": "妮可"
+      },
+      {
+        "name": "Anton",
+        "icon": "安东.png",
+        "star": 5,
+        "element": "Electric",
+        "label": "安东"
+      },
+      {
+        "name": "Anbi",
+        "icon": "安比.png",
+        "star": 5,
+        "element": "Electric",
+        "label": "安比"
+      },
+      {
+        "name": "Yuma",
+        "icon": "悠真.png",
+        "star": 5,
+        "element": "Fire",
+        "label": "悠真"
+      },
+      {
+        "name": "Trigger",
+        "icon": "扳机.png",
+        "star": 5,
+        "element": "Fire",
+        "label": "扳机"
+      },
+      {
+        "name": "Ben",
+        "icon": "本.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "本"
+      },
+      {
+        "name": "Zhu Yuan",
+        "icon": "朱鸢.png",
+        "star": 5,
+        "element": "Fire",
+        "label": "朱鸢"
+      },
+      {
+        "name": "Bernice",
+        "icon": "柏妮思.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "柏妮思"
+      },
+      {
+        "name": "Liu",
+        "icon": "柳.png",
+        "star": 5,
+        "element": "Ice",
+        "label": "柳"
+      },
+      {
+        "name": "Grace",
+        "icon": "格莉丝.png",
+        "star": 5,
+        "element": "Electric",
+        "label": "格莉丝"
+      },
+      {
+        "name": "Billy",
+        "icon": "比利.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "比利"
+      },
+      {
+        "name": "Pocona",
+        "icon": "波可娜.png",
+        "star": 5,
+        "element": "Ethereal",
+        "label": "波可娜"
+      },
+      {
+        "name": "Pai Pai",
+        "icon": "派派.png",
+        "star": 5,
+        "element": "Electric",
+        "label": "派派"
+      },
+      {
+        "name": "Pan Yinhu",
+        "icon": "潘引壶.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "潘引壶"
+      },
+      {
+        "name": "Nekomata",
+        "icon": "猫又.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "猫又"
+      },
+      {
+        "name": "Colette",
+        "icon": "珂蕾妲.png",
+        "star": 5,
+        "element": "Fire",
+        "label": "珂蕾妲"
+      },
+      {
+        "name": "Jane",
+        "icon": "简.png",
+        "star": 5,
+        "element": "Physical",
+        "label": "简"
+      },
+      {
+        "name": "Yao Jiayin",
+        "icon": "耀嘉音.png",
+        "star": 5,
+        "element": "Electric",
+        "label": "耀嘉音"
+      },
+      {
+        "name": "Ellen",
+        "icon": "艾莲.png",
+        "star": 5,
+        "element": "Ice",
+        "label": "艾莲"
+      },
+      {
+        "name": "Cang Jiao",
+        "icon": "苍角.png",
+        "star": 5,
+        "element": "Ice",
+        "label": "苍角"
+      },
+      {
+        "name": "Lycaon",
+        "icon": "莱卡恩.png",
+        "star": 5,
+        "element": "Ice",
+        "label": "莱卡恩"
+      },
+      {
+        "name": "Light",
+        "icon": "莱特.png",
+        "star": 5,
+        "element": "Ethereal",
+        "label": "莱特"
+      },
+      {
+        "name": "Vivian",
+        "icon": "薇薇安.png",
+        "star": 5,
+        "element": "Ice",
+        "label": "薇薇安"
+      },
+      {
+        "name": "Seth",
+        "icon": "赛斯.png",
+        "star": 5,
+        "element": "Electric",
+        "label": "赛斯"
+      },
+      {
+        "name": "Ya",
+        "icon": "雅.png",
+        "star": 5,
+        "element": "Wind",
+        "label": "雅"
+      },
+      {
+        "name": "Hugo",
+        "icon": "雨果.png",
+        "star": 5,
+        "element": "Wind",
+        "label": "雨果"
+      },
+      {
+        "name": "Zero-Ambi",
+        "icon": "零号·安比.png",
+        "star": 5,
+        "element": "Electric",
+        "label": "零号·安比"
+      },
+      {
+        "name": "Lucy",
+        "icon": "露西.png",
+        "star": 5,
+        "element": "Fire",
+        "label": "露西"
+      },
+      {
+        "name": "Qingyi",
+        "icon": "青衣.png",
+        "star": 5,
+        "element": "Wind",
+        "label": "青衣"
+      }
+    ],
+    "weapons": [],
+    "npcs": [],
+    "ui": [],
+    "context": [],
+    "others": []
+  }
+}
