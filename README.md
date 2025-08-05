@@ -16,7 +16,6 @@
     <img src="https://img.shields.io/github/license/cileamzh/CzModManager" alt="License">
   </a>
 </p>
-<img src="modmanager.png" alt="CzModManager Logo" width="200" />
 
 > 🛠️ 一款简洁高效的 3DMigoto Mod 管理器，支持启用/禁用、分类、预览和快速切换 Mod。
 
